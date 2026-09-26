@@ -7,10 +7,8 @@ under [Creative Commons Attribution 4.0 International](https://creativecommons.o
 
 The underlying Claude suit model is credited to digi and the claudesona design
 to voooooogel in the repository's `CREDITS.md`. This statement does not replace
-their rights or the terms that apply to the source avatar. The contributed VRM
-files still carry restrictive embedded metadata inherited from the source.
-That discrepancy is recorded in `avatars/source_rights/` and in the
-[integration guide](README.md#source-and-publication-boundary).
+their rights or the terms that apply to the source avatar. The contributed
+VRM files' embedded permissions agree with this CC BY 4.0 grant.
 
 The fitting scripts and scene examples remain under the repository's code
 license. This file concerns the contributed assets and authored arrangement

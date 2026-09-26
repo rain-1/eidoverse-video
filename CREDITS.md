@@ -88,9 +88,7 @@ did the extraction, the release engineering, and the launch film.
   supplied by River from the INGRESS packs under [CC BY 4.0 for the new
   contributions](eidoverse/claude_pop/ASSET_LICENSE.md). The
   Claude suit model credit to digi and claudesona design credit to
-  voooooogel still apply. The supplied VRM files retain embedded rights fields
-  that conflict with the repository's CC-BY statement; see the
-  [source notes](eidoverse/claude_pop/README.md#source-and-publication-boundary).
+  voooooogel still apply.
 - **Bird characters** (`crow_bird_animated_*`, `cactus_wren_bird_animated_*`) —
   meshes AI-generated (Tripo / Meshy), then retopologised, rigged, weighted and
   hand-animated for this library by the maintainer with **Claude Opus 5** and

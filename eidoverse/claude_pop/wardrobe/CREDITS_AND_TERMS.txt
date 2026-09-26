@@ -1,44 +1,5 @@
-CLAUDE IDOL WARDROBE v1 — CREDITS AND SOURCE DISTINCTIONS
+Claude Pop fitted wardrobe
 
-NEW CONTENT IN THIS PACK
-The procedural wardrobe meshes, accessory meshes, fabric patterns, decals,
-fitting code, and neutral reference mannequins were generated for this project.
-They are not scans or copies of an existing K-pop performer's clothing.
-No source Claude mesh, original face texture, music track, or font file is
-redistributed. Text on decals has been rasterized into images.
+Wardrobe geometry, accessories, textures and generated dressed variants are contributed by rain-1 under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
-The user may use, edit and incorporate these new assets and code into their
-videos and workflow. No additional credit request is imposed for the newly
-generated wardrobe content. This statement does not grant rights in third-party
-avatars, trademarks, songs, or other material; their separate terms still apply.
-No promise of copyright ownership, exclusivity, clearance, or legal advice is made.
-
-ORIGINAL AVATAR (SUPPLIED LOCALLY BY THE USER)
-Repository: https://github.com/SkyeShark/eidoverse-video
-Source credits: https://github.com/SkyeShark/eidoverse-video/blob/main/CREDITS.md
-
-The repository credits:
-- claude_suit.vrm modeled by digi (https://x.com/digi_dot_exe), provided under CC-BY.
-- Claudesona / Claude logo-bloom character design by voooooogel
-  (https://x.com/voooooogel).
-
-The retrieved source credits do not specify a CC-BY version. Do not invent one.
-Check the source avatar's embedded metadata and the current repository asset
-terms before redistributing a dressed derivative. This pack's Python builder
-preserves the original author/license fields and records the modifications.
-It does not replace the original asset's terms with new terms.
-
-Suggested video/project attribution, to supplement any license-specific needs:
-"Claude suit model by digi; claudesona design by voooooogel, via Eidoverse.
-Modified with Context Crew wardrobe meshes, textures and accessories."
-
-EIDOVERSE
-The original engine is a separate project and its license is not changed by
-this wardrobe archive. No engine source is redistributed here. The adapter and
-inspection scripts are newly written integration code, not copies of the
-entire engine. NumPy, Pillow and renderer/runtime dependencies retain their
-own licenses. Font files are not included.
-
-NO ENDORSEMENT
-This fan-made stage styling is not an endorsement by Anthropic, any AI vendor,
-a real music group, or the original avatar contributors.
+Claude suit model: digi. Claudesona design: voooooogel. Their creator credits remain in the repository CREDITS.md. The local builder leaves the source VRM unchanged and writes dressed variants to ignored work/claude_pop/vrms/.

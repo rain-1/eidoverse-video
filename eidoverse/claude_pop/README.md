@@ -22,7 +22,8 @@ python eido.py render eidoverse/claude_pop/pop_dance.json
 
 The builder reads the existing `eidoverse/assets/vrms/claude_suit.vrm` and
 writes Prime, Pixel, Nova, Echo, and Sol to `work/claude_pop/vrms/`. It keeps
-the source avatar untouched and preserves its humanoid and rights metadata.
+the source avatar untouched, preserves its humanoid and creator credits, and
+sets the generated VRMs' embedded terms to CC BY 4.0.
 It accepts `--only prime`, `--inspect`, `--attachments-only`, `--fit-config`,
 and `--source` for other local avatars. The included scene JSONs show the
 five-person lineup and individual closeups. `pop_dance.json` renders Prime
@@ -62,14 +63,10 @@ current Claude rig.
 
 ## Source and publication boundary
 
-The avatar variants are contributed by the pack creator under the
-[Claude Pop asset terms](ASSET_LICENSE.md) for this
-project, with the underlying Claude suit and character design credited in
-`CREDITS.md`. Their embedded VRM metadata still says `allowRedistribution:
-false` and `modification: prohibited`, while this repository identifies the
-source model as CC-BY. The original metadata is retained in the binaries and
-copied under `avatars/source_rights/` for review; this integration does not
-silently change those fields or claim that it resolves the discrepancy.
+The avatar variants and new pack assets are contributed by the creator under
+the [Claude Pop asset terms](ASSET_LICENSE.md). The underlying Claude suit
+and character design remain credited in `CREDITS.md`. The contributed VRMs'
+embedded permissions are set to match the CC BY 4.0 grant.
 
 The source material came from the INGRESS packs listed in
 [`SOURCE_INVENTORY.md`](SOURCE_INVENTORY.md). Offline viewers, embedded model

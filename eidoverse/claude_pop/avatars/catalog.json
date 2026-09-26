@@ -7,160 +7,160 @@
       "sourceArchive": "Claude_Five_VRMs.zip",
       "sourcePath": "Claude_Five_VRMs/01_NOVA_Claude.vrm",
       "path": "eidoverse/claude_pop/avatars/context_crew/01_NOVA_Claude.vrm",
-      "sha256": "e25c6b00fae04c21cd6b1f2b2ad947f03c539c76fa34c5c2012bd4c85ed789c6",
-      "bytes": 2160876
+      "sha256": "6ff7effd59fef7dbb4027e080779c94ba852bad972b0a34bf21c37579f327733",
+      "bytes": 2160944
     },
     {
       "family": "context_crew",
       "sourceArchive": "Claude_Five_VRMs.zip",
       "sourcePath": "Claude_Five_VRMs/02_ROOK_Claude.vrm",
       "path": "eidoverse/claude_pop/avatars/context_crew/02_ROOK_Claude.vrm",
-      "sha256": "a7edd4df3c474aaa2b3cea7730ce0072a2572269db28bc8e85dec88ea3d0cf1e",
-      "bytes": 13232348
+      "sha256": "ae15f6c0356d1669089de07e73f8114298dfcc3600dc13c89751b3e8864e1440",
+      "bytes": 13232428
     },
     {
       "family": "context_crew",
       "sourceArchive": "Claude_Five_VRMs.zip",
       "sourcePath": "Claude_Five_VRMs/03_PIXEL_Claude.vrm",
       "path": "eidoverse/claude_pop/avatars/context_crew/03_PIXEL_Claude.vrm",
-      "sha256": "8888178eb34941622f8478023d5ecb406e28ba527c6590b685fb55d854eefe3c",
-      "bytes": 2070096
+      "sha256": "1d243c3bcd5cb8b5d4c214b6286dd17025df44b7130e30b4bff30e06a0ce10dc",
+      "bytes": 2070168
     },
     {
       "family": "context_crew",
       "sourceArchive": "Claude_Five_VRMs.zip",
       "sourcePath": "Claude_Five_VRMs/04_ECHO_Claude.vrm",
       "path": "eidoverse/claude_pop/avatars/context_crew/04_ECHO_Claude.vrm",
-      "sha256": "47981bb63f51f0f0e4fd4d1b69d1ec4b4df8395538228db0428d24be0f76ea12",
-      "bytes": 2069324
+      "sha256": "31c1c93e968adbc76f82fa04f6f3120a58860e3dd0d5e9350a20e41baedb5190",
+      "bytes": 2069392
     },
     {
       "family": "context_crew",
       "sourceArchive": "Claude_Five_VRMs.zip",
       "sourcePath": "Claude_Five_VRMs/05_SOL_Claude.vrm",
       "path": "eidoverse/claude_pop/avatars/context_crew/05_SOL_Claude.vrm",
-      "sha256": "6179b0bdd02c7df8531d0de395fc805665539d9a0d7137f647d7e3db9ddc070b",
-      "bytes": 12779460
+      "sha256": "819e5bfc959a6389ab2a713b6a33cc03436de7e8f77c3c7908e6987ce06fdfb0",
+      "bytes": 12779540
     },
     {
       "family": "afterglow",
       "sourceArchive": "Claude_KPop_5_VRMs.zip",
       "sourcePath": "Claude_KPop_5_VRMs/models/01_cherry_pop.vrm",
       "path": "eidoverse/claude_pop/avatars/afterglow/01_cherry_pop.vrm",
-      "sha256": "8783a5f2b01f965d91712b8456bc6730cc55e87b8becb8d7a4e5a6e43ffb0187",
-      "bytes": 12476820
+      "sha256": "97d7fa5e65a2cdb9df64e2d8b47c486e7013e09d871f7c6a80bfa4eff381f24d",
+      "bytes": 12476844
     },
     {
       "family": "afterglow",
       "sourceArchive": "Claude_KPop_5_VRMs.zip",
       "sourcePath": "Claude_KPop_5_VRMs/models/02_cobalt_circuit.vrm",
       "path": "eidoverse/claude_pop/avatars/afterglow/02_cobalt_circuit.vrm",
-      "sha256": "d5f2dfee2763f4679ac04e6488a5eafd5b324152ff25692d8bbbb262a84e1be1",
-      "bytes": 12466408
+      "sha256": "9a8b38f22eefede4ba763afabef5122ac9e2ccec9ca4beb77423d47fdbe77390",
+      "bytes": 12466432
     },
     {
       "family": "afterglow",
       "sourceArchive": "Claude_KPop_5_VRMs.zip",
       "sourcePath": "Claude_KPop_5_VRMs/models/03_lilac_luxe.vrm",
       "path": "eidoverse/claude_pop/avatars/afterglow/03_lilac_luxe.vrm",
-      "sha256": "21989a2ba2322064b541bef402ed38cff2fa2e7d1cc4319f40705249d79866a9",
-      "bytes": 12952964
+      "sha256": "f930ed4df8a277da06c78fe49a171539cc709c56b0ac9294435e27e0fed7c531",
+      "bytes": 12952988
     },
     {
       "family": "afterglow",
       "sourceArchive": "Claude_KPop_5_VRMs.zip",
       "sourcePath": "Claude_KPop_5_VRMs/models/04_acid_drop.vrm",
       "path": "eidoverse/claude_pop/avatars/afterglow/04_acid_drop.vrm",
-      "sha256": "3c1b92cdd54ce1dd94898fd911e8279009ca944dbd7071036981c131177b2a07",
-      "bytes": 12478860
+      "sha256": "b903ca8cedae6b6ceeebf6c9ccaac0eb3302005b69f79dc38b06624eb7be7644",
+      "bytes": 12478884
     },
     {
       "family": "afterglow",
       "sourceArchive": "Claude_KPop_5_VRMs.zip",
       "sourcePath": "Claude_KPop_5_VRMs/models/05_golden_hour.vrm",
       "path": "eidoverse/claude_pop/avatars/afterglow/05_golden_hour.vrm",
-      "sha256": "7632a2047b6e092a338fe2fa79afea7c8ba781d0c5a5edf85972316020b71c47",
-      "bytes": 12051432
+      "sha256": "b98109adacda4299ed565d7d687b74363deb06d321a77ce6d5766eace1aacbc0",
+      "bytes": 12051452
     },
     {
       "family": "petalpop",
       "sourceArchive": "PETALPOP_5_Edited_Claude_VRMs.zip",
       "sourcePath": "PETALPOP/models/01_nova.vrm",
       "path": "eidoverse/claude_pop/avatars/petalpop/01_nova.vrm",
-      "sha256": "bc51c2b16836570d0da87d4cfbf21613829fbec7222d8154f38d70fcc65739b7",
-      "bytes": 14604008
+      "sha256": "24284e86df58de69230cba7072f2d2ee72f776c596df2837bb825eafea73b7b5",
+      "bytes": 14604028
     },
     {
       "family": "petalpop",
       "sourceArchive": "PETALPOP_5_Edited_Claude_VRMs.zip",
       "sourcePath": "PETALPOP/models/02_byte.vrm",
       "path": "eidoverse/claude_pop/avatars/petalpop/02_byte.vrm",
-      "sha256": "031292b4358cace51dd3e878c7843bfb24e9b892bc72e01d967920067345bb5c",
-      "bytes": 14062376
+      "sha256": "7e3544a063049fe96c858d22da33cadbd0c9f96b4e3a0965336bd49df2f7ad5d",
+      "bytes": 14062396
     },
     {
       "family": "petalpop",
       "sourceArchive": "PETALPOP_5_Edited_Claude_VRMs.zip",
       "sourcePath": "PETALPOP/models/03_kiki.vrm",
       "path": "eidoverse/claude_pop/avatars/petalpop/03_kiki.vrm",
-      "sha256": "7b4cc4c0f1941584bd0476000babd470775cd4d8987ebe4c5ac2a65e9b4460d6",
-      "bytes": 14189384
+      "sha256": "af46a7c60778ed2db03b557aee43d29a50287bbb415dfe8620f32280e821fd80",
+      "bytes": 14189404
     },
     {
       "family": "petalpop",
       "sourceArchive": "PETALPOP_5_Edited_Claude_VRMs.zip",
       "sourcePath": "PETALPOP/models/04_riot.vrm",
       "path": "eidoverse/claude_pop/avatars/petalpop/04_riot.vrm",
-      "sha256": "4df22f82c1f6a8970d59417dbfed584412a8c8073c9c6533a660d16669b38177",
-      "bytes": 13458868
+      "sha256": "23d926eb4dd7415b6d92b3d9183a7b949c6a8f9b87c6ffb8bb6a75d87704811e",
+      "bytes": 13458888
     },
     {
       "family": "petalpop",
       "sourceArchive": "PETALPOP_5_Edited_Claude_VRMs.zip",
       "sourcePath": "PETALPOP/models/05_lumi.vrm",
       "path": "eidoverse/claude_pop/avatars/petalpop/05_lumi.vrm",
-      "sha256": "0b87bc759defff7d02def37a7d9bde9d64f0630d3ac9a9b9e43e4654d2021ca2",
-      "bytes": 14273000
+      "sha256": "f21e371c46a7b26e53c72ddf4ecee4e81a7c3f7c4897819a49c9bc4305c05b9b",
+      "bytes": 14273020
     },
     {
       "family": "idol",
       "sourceArchive": "claude-idol-vrms-v1.zip",
       "sourcePath": "claude_idol_v1/vrms/claude_echo.vrm",
       "path": "eidoverse/claude_pop/avatars/idol/claude_echo.vrm",
-      "sha256": "364cce773f0cb4a623adfcea2d908558158ab0ea5f1d6ad7e69d3b03660a6b2e",
-      "bytes": 13327080
+      "sha256": "ba816b47ab82e711fc9c4773c52bd60668ec133b4d4436988772d8ac0c05f5e1",
+      "bytes": 13327160
     },
     {
       "family": "idol",
       "sourceArchive": "claude-idol-vrms-v1.zip",
       "sourcePath": "claude_idol_v1/vrms/claude_nova.vrm",
       "path": "eidoverse/claude_pop/avatars/idol/claude_nova.vrm",
-      "sha256": "9bc84ab367208c8a3ff4d5445f16a47bf9f3ab9301117f3c71122fda8b621d25",
-      "bytes": 13207384
+      "sha256": "afd3e94d6c20ff0ae943d0dbe155fd7511dd0f7d9fa496c11ec52821912bda3f",
+      "bytes": 13207464
     },
     {
       "family": "idol",
       "sourceArchive": "claude-idol-vrms-v1.zip",
       "sourcePath": "claude_idol_v1/vrms/claude_pixel.vrm",
       "path": "eidoverse/claude_pop/avatars/idol/claude_pixel.vrm",
-      "sha256": "1253f1f89aee0342bd4d456177a221d65a51468f1d1432bca4af65d9cc6e08d6",
-      "bytes": 13495080
+      "sha256": "4e0f460d48fbaf4cf92a93ff31423e68c2aebe6b8bc2adf96aec0bc0ed37c600",
+      "bytes": 13495160
     },
     {
       "family": "idol",
       "sourceArchive": "claude-idol-vrms-v1.zip",
       "sourcePath": "claude_idol_v1/vrms/claude_prime.vrm",
       "path": "eidoverse/claude_pop/avatars/idol/claude_prime.vrm",
-      "sha256": "bad59e87563be8f762a9c1440bd858f400f757c21df3f1ccab351496ff37f8ba",
-      "bytes": 13343148
+      "sha256": "3a3753caa4abcbe38621eec40154407a50ca520e05fe37f23cfacd04963e4f30",
+      "bytes": 13343228
     },
     {
       "family": "idol",
       "sourceArchive": "claude-idol-vrms-v1.zip",
       "sourcePath": "claude_idol_v1/vrms/claude_sol.vrm",
       "path": "eidoverse/claude_pop/avatars/idol/claude_sol.vrm",
-      "sha256": "25a8382d8cded3b181e6a38dc7c37b2c46117b3c303978c4a394d3f739373de3",
-      "bytes": 13409916
+      "sha256": "a4a72f633e2bc17e1464fba69ea133ea355694154179b2122c8d7d7f7fdfac00",
+      "bytes": 13410000
     }
   ]
 }

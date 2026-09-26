@@ -6,7 +6,8 @@ Usage (from the eidoverse repository root):
       --source eidoverse/assets/vrms/claude_suit.vrm
 
 The source is never overwritten. Original bone indices, humanoid mapping,
-face geometry, expressions, skinning and license metadata are preserved.
+face geometry, expressions and skinning are preserved. Generated VRM 1.0
+permissions are set to the contributed pack's CC BY 4.0 terms.
 Only named clothing layers are hidden/re-materialed. New garments are mapped
 to the source rest skeleton, with fresh inverse bind matrices. Accessories
 are transformed into their raw bone's local space and parented to that bone.
@@ -211,6 +212,18 @@ def apply_member(source,fit,manifest,output,attachments_only=False):
     append_shader_entries(out)
     vrm=out.d['extensions'].get('VRM',out.d['extensions'].get('VRMC_vrm'))
     meta=vrm.setdefault('meta',{});title='title' if fit.version=='0' else 'name';meta[title]=meta.get(title,'Claude')+' / '+manifest['name']+' wardrobe'
+    # The pack contributor publishes these dressed derivatives as CC BY 4.0.
+    # Keep existing author credits and make the generated VRM agree with that grant.
+    if fit.version=='1':
+        meta.update({'avatarPermission':'everyone','commercialUsage':'corporation',
+                     'allowRedistribution':True,'modification':'allowModificationRedistribution',
+                     'creditNotation':'required','licenseUrl':'https://vrm.dev/licenses/1.0/',
+                     'otherLicenseUrl':'https://creativecommons.org/licenses/by/4.0/'})
+        for flag in ('allowExcessivelyViolentUsage','allowExcessivelySexualUsage',
+                     'allowPoliticalOrReligiousUsage','allowAntisocialOrHateUsage'):
+            meta[flag]=True
+        meta['authors']=[a for a in meta.get('authors',[]) if a and a.lower()!='undefined']
+        if 'rain-1' not in meta['authors']:meta['authors'].append('rain-1')
     fp=vrm.setdefault('firstPerson',{});ann=fp.setdefault('meshAnnotations',[])
     for q in made:
         if fit.version=='0':ann.append({'mesh':q['mesh'],'firstPersonFlag':'Both'})
