@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "name": "Penguin boy band",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "line",
+  "mode": "unison",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "front",
+  "phrases": [
+    {
+      "id": "37_penguin_shuffle",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "47_tiny_army",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "36_wedding_uncle",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "35_aegyo_overload",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "37_penguin_shuffle",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "42_tiny_macho",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "49_heart_explosion",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "54_wrong_choreography",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion."
+}

@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "sourceBpm": 120,
+  "beatsPerClip": 8,
+  "secondsPerClip": 4,
+  "sampleRate": 30,
+  "authorship": "Original procedural, K-pop-inspired phrases; not recorded choreography",
+  "clips": [
+    {
+      "id": "01_neon_step_touch",
+      "name": "Neon step-touch",
+      "category": "Groove",
+      "feet": "tap",
+      "energy": "Low",
+      "description": "Side taps, easy rebound and relaxed arm pulls.",
+      "beats": 8
+    },
+    {
+      "id": "02_disco_diagonals",
+      "name": "Disco diagonals",
+      "category": "Hooks",
+      "feet": "tap",
+      "energy": "Medium",
+      "description": "Alternating diagonal reaches with a clean return.",
+      "beats": 8
+    },
+    {
+      "id": "03_point_and_pull",
+      "name": "Point & pull",
+      "category": "Hooks",
+      "feet": "tap",
+      "energy": "Medium",
+      "description": "Forward points answered by compact elbow pulls.",
+      "beats": 8
+    },
+    {
+      "id": "04_cross_punch",
+      "name": "Cross-punch bounce",
+      "category": "Power",
+      "feet": "wide",
+      "energy": "High",
+      "description": "Alternating cross-body punches with grounded knee pulses.",
+      "beats": 8,
+      "snap": 0.7
+    },
+    {
+      "id": "05_shoulder_pops",
+      "name": "Shoulder pops",
+      "category": "Groove",
+      "feet": "tap",
+      "energy": "Low",
+      "description": "Shoulder isolation over gentle side taps.",
+      "beats": 8,
+      "shoulders": 1
+    },
+    {
+      "id": "06_head_nod",
+      "name": "Head-nod pocket",
+      "category": "Groove",
+      "feet": "wide",
+      "energy": "Low",
+      "description": "Compact groove for verses or backing dancers.",
+      "beats": 8,
+      "headnod": 1
+    },
+    {
+      "id": "07_body_roll",
+      "name": "Ripple body roll",
+      "category": "Fluid",
+      "feet": "wide",
+      "energy": "Medium",
+      "description": "A phased spine-to-chest roll above planted feet.",
+      "beats": 8,
+      "bodyroll": 1
+    },
+    {
+      "id": "08_overhead_heart",
+      "name": "Overhead heart sway",
+      "category": "Cute",
+      "feet": "tap",
+      "energy": "Medium",
+      "description": "A broad overhead heart silhouette, opening to a V.",
+      "beats": 8
+    },
+    {
+      "id": "09_cheek_frame",
+      "name": "Cheek-frame bounce",
+      "category": "Cute",
+      "feet": "wide",
+      "energy": "Low",
+      "description": "Face-framing elbows and playful alternating head tilts.",
+      "beats": 8
+    },
+    {
+      "id": "10_wrist_flick",
+      "name": "Wrist-flick steps",
+      "category": "Cute",
+      "feet": "tap",
+      "energy": "Medium",
+      "description": "Raised elbows and little wrist accents.",
+      "beats": 8,
+      "wrists": 1
+    },
+    {
+      "id": "11_swim_sweep",
+      "name": "Swimming sweeps",
+      "category": "Fluid",
+      "feet": "tap",
+      "energy": "Medium",
+      "description": "Broad scoops that travel across the front of the body.",
+      "beats": 8
+    },
+    {
+      "id": "12_chest_hit",
+      "name": "Chest hit & open",
+      "category": "Power",
+      "feet": "wide",
+      "energy": "High",
+      "description": "Closed hits that expand into strong open shapes.",
+      "beats": 8,
+      "chesthit": 1,
+      "snap": 0.75
+    },
+    {
+      "id": "13_march_pump",
+      "name": "March & pump",
+      "category": "Footwork",
+      "feet": "march",
+      "energy": "High",
+      "description": "Alternating knee lifts and opposite-arm pumps.",
+      "beats": 8
+    },
+    {
+      "id": "14_running_man_lite",
+      "name": "Running-man lite",
+      "category": "Footwork",
+      "feet": "running",
+      "energy": "High",
+      "description": "A stylized in-place back-step and knee-lift phrase.",
+      "beats": 8
+    },
+    {
+      "id": "15_heel_switch",
+      "name": "Heel switches",
+      "category": "Footwork",
+      "feet": "heel",
+      "energy": "Medium",
+      "description": "Alternating forward heel presentations and returns.",
+      "beats": 8
+    },
+    {
+      "id": "16_side_shuffle",
+      "name": "Side shuffle",
+      "category": "Footwork",
+      "feet": "shuffle",
+      "energy": "High",
+      "description": "Small quick foot placements with compact arm accents.",
+      "beats": 8
+    },
+    {
+      "id": "17_kick_change",
+      "name": "Kick & change",
+      "category": "Footwork",
+      "feet": "kick",
+      "energy": "High",
+      "description": "Small forward kicks followed by a reset under the body.",
+      "beats": 8
+    },
+    {
+      "id": "18_double_bounce",
+      "name": "Double bounce V",
+      "category": "Power",
+      "feet": "bounce",
+      "energy": "High",
+      "description": "Two grounded rebounds into a big overhead V.",
+      "beats": 8,
+      "snap": 0.65
+    },
+    {
+      "id": "19_sunburst_reach",
+      "name": "Sunburst reaches",
+      "category": "Hooks",
+      "feet": "tap",
+      "energy": "High",
+      "description": "Large alternating arm arcs with an open chorus silhouette.",
+      "beats": 8
+    },
+    {
+      "id": "20_tutting_boxes",
+      "name": "Tutting boxes",
+      "category": "Hooks",
+      "feet": "wide",
+      "energy": "Medium",
+      "description": "Angular elbow shapes with deliberate held accents.",
+      "beats": 8,
+      "snap": 0.8
+    },
+    {
+      "id": "21_scoop_rise",
+      "name": "Low scoop & rise",
+      "category": "Fluid",
+      "feet": "wide",
+      "energy": "Medium",
+      "description": "A shallow grounded scoop rising into an open reach.",
+      "beats": 8,
+      "scoop": 1
+    },
+    {
+      "id": "22_power_stomp",
+      "name": "Power stomp",
+      "category": "Power",
+      "feet": "stomp",
+      "energy": "High",
+      "description": "Alternating low stomps under sharply accented arm hits.",
+      "beats": 8,
+      "snap": 0.8
+    },
+    {
+      "id": "23_turn_present",
+      "name": "Turn & present",
+      "category": "Hooks",
+      "feet": "tap",
+      "energy": "Medium",
+      "description": "Small left-right torso turns, then a camera-facing presentation.",
+      "beats": 8,
+      "turn": 1
+    },
+    {
+      "id": "24_ending_fairy",
+      "name": "Ending-fairy pose",
+      "category": "Cute",
+      "feet": "wide",
+      "energy": "Low",
+      "description": "A held face-framing pose, tiny wave and celebratory finish.",
+      "beats": 8,
+      "wrists": 0.3
+    }
+  ]
+}

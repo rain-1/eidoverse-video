@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "name": "Ripple transition",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "arc",
+  "mode": "ripple",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.4,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "phrases": [
+    {
+      "id": "07_body_roll",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "11_swim_sweep",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "21_scoop_rise",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "07_body_roll",
+      "startBeat": 24,
+      "beats": 8
+    }
+  ],
+  "note": "World formation is separate from skeletal animation. Requires a routine player; not one combined VRMA."
+}

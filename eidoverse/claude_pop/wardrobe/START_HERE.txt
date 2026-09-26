@@ -1,0 +1,1 @@
+Read eidoverse/claude_pop/README.md. Build from the repo root with: python eidoverse/claude_pop/wardrobe/scripts/build_vrms.py

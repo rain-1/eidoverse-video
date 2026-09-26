@@ -46,6 +46,11 @@ fetched props):
   is all the piece needs.
 - `claude.vrm` — a lightweight Claude stand-in; `claude_suit.vrm` is primary
 
+The [Claude Pop library](../eidoverse/claude_pop/README.md) adds 20 supplied
+avatar variants, a local builder for five more styled suits, accessory meshes,
+and calibrated dance clips. Use its catalog to choose a path for
+`config.assets.character_vrm`.
+
 Any `.vrm` dropped into `eidoverse/assets/vrms/` works the same way. Point
 `config.assets` at the VRM where it lives (e.g. `"character_vrm":
 "eidoverse/assets/vrms/claude.vrm"`) — these are 10–40 MB, and referencing

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "name": "Five featured solos",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "v",
+  "mode": "relay",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.4,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "phrases": [
+    {
+      "id": "04_cross_punch",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "16_side_shuffle",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "09_cheek_frame",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "17_kick_change",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "24_ending_fairy",
+      "startBeat": 32,
+      "beats": 8
+    }
+  ],
+  "note": "World formation is separate from skeletal animation. Requires a routine player; not one combined VRMA."
+}

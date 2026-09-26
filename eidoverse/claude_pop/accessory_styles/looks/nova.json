@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0",
+  "id": "nova",
+  "displayName": "NOVA",
+  "role": "The blue technical ace",
+  "baseModel": "eidoverse/assets/vrms/claude_suit.vrm",
+  "implementation": "existing skinned clothing + original rigid accessory meshes",
+  "requiresClothingNodes": [
+    "jacket",
+    "shirt",
+    "pants",
+    "shoes"
+  ],
+  "hideMeshes": [
+    "tie"
+  ],
+  "palette": {
+    "name": "NOVA",
+    "role": "The blue technical ace",
+    "base": "#207CEB",
+    "accent": "#73E5EF",
+    "dark": "#101C36",
+    "light": "#DDF8FF",
+    "metal": "#9DAFC4",
+    "pattern": "circuit",
+    "roughness": 0.62
+  },
+  "materialOverrides": {
+    "jacket": {
+      "color": "#FFFFFF",
+      "metalness": 0,
+      "roughness": 1,
+      "fabricMaps": true,
+      "repeat": [
+        3,
+        3
+      ],
+      "normalStrength": 0.18
+    },
+    "shirt": {
+      "color": "#101C36",
+      "metalness": 0,
+      "roughness": 0.78
+    },
+    "pants": {
+      "color": "#101C36",
+      "metalness": 0,
+      "roughness": 0.88
+    },
+    "shoes": {
+      "color": "#101C36",
+      "metalness": 0.05,
+      "roughness": 0.4
+    },
+    "tie": {
+      "color": "#73E5EF",
+      "metalness": 0,
+      "roughness": 0.46
+    }
+  },
+  "attachments": [
+    {
+      "id": "visor",
+      "assetKey": "nova_visor",
+      "bone": "head",
+      "offsetMeters": [
+        0,
+        0.04,
+        0.09
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": false,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "shoulder_module",
+      "assetKey": "nova_shoulder_module",
+      "bone": "leftShoulder",
+      "offsetMeters": [
+        0.07,
+        -0.02,
+        0.027
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "gpu_pendant",
+      "assetKey": "nova_gpu_pendant",
+      "bone": "chest",
+      "offsetMeters": [
+        0,
+        -0.05,
+        0.12
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "utility_belt",
+      "assetKey": "nova_utility_belt",
+      "bone": "hips",
+      "offsetMeters": [
+        0,
+        0.035,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "left_cuff",
+      "assetKey": "nova_cuff",
+      "bone": "leftHand",
+      "offsetMeters": [
+        -0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "right_cuff",
+      "assetKey": "nova_cuff",
+      "bone": "rightHand",
+      "offsetMeters": [
+        0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    }
+  ],
+  "referenceLegLengthMeters": 0.9,
+  "coordinateBasis": "+X = avatar left, +Y = up, +Z = forward, measured in rest pose",
+  "uniformBodyScale": true,
+  "faceAccessoriesDisabledByDefault": true,
+  "fitOverrides": {},
+  "plannedGarmentsOnly": "asymmetric technical jacket, stitched harness, cargo trousers"
+}

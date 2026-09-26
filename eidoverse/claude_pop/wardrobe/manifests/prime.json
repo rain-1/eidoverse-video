@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "prime",
+  "name": "PRIME",
+  "role": "Leader / centre",
+  "color": "#F3EEE4",
+  "accent": "#D4AF5A",
+  "dark": "#232127",
+  "light": "#FFF9EA",
+  "metal": "#DCBB6C",
+  "emblem": "sunburst",
+  "fabric": "Champagne jacquard",
+  "silhouette": "Split longline coat",
+  "baseVRM": "eidoverse/assets/vrms/claude_suit.vrm",
+  "hideOriginalMeshes": [
+    "jacket",
+    "tie"
+  ],
+  "garment": "garments/prime_outerwear.glb",
+  "attachments": [
+    {
+      "id": "prime_headpiece",
+      "asset": "assets/prime/prime_headpiece.glb",
+      "bone": "head",
+      "fitSpace": "head",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "prime_chest_jewellery",
+      "asset": "assets/prime/prime_chest_jewellery.glb",
+      "bone": "upperChest",
+      "fitSpace": "chest",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "prime_belt_and_charms",
+      "asset": "assets/prime/prime_belt_and_charms.glb",
+      "bone": "hips",
+      "fitSpace": "hips",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "prime_left_wrist_cuff",
+      "asset": "assets/prime/prime_left_wrist_cuff.glb",
+      "bone": "leftLowerArm",
+      "fitSpace": "wrist",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "prime_right_wrist_cuff",
+      "asset": "assets/prime/prime_right_wrist_cuff.glb",
+      "bone": "rightLowerArm",
+      "fitSpace": "wrist",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "prime_left_shoe_trim",
+      "asset": "assets/prime/prime_left_shoe_trim.glb",
+      "bone": "leftFoot",
+      "fitSpace": "foot",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "prime_right_shoe_trim",
+      "asset": "assets/prime/prime_right_shoe_trim.glb",
+      "bone": "rightFoot",
+      "fitSpace": "foot",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "fit": {
+    "bodyWidthPadding": 1.08,
+    "bodyDepthPadding": 1.12,
+    "sleevePadding": 1.1,
+    "headScale": [
+      1,
+      1,
+      1
+    ],
+    "headOffset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "notes": [
+    "Garment replaces the original jacket; original shirt, pants and shoes are retained and re-materialed.",
+    "Tail panels are skinned, not simulated cloth. Accessories are rigid bone children.",
+    "Per-avatar fitting and dance QA are still required."
+  ]
+}

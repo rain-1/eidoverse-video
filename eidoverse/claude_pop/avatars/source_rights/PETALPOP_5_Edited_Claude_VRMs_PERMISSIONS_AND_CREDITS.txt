@@ -1,0 +1,24 @@
+SOURCE AVATAR METADATA — preserved in the five derivatives except the model display name.
+
+{
+  "allowAntisocialOrHateUsage": false,
+  "allowExcessivelySexualUsage": false,
+  "allowExcessivelyViolentUsage": false,
+  "allowPoliticalOrReligiousUsage": false,
+  "allowRedistribution": false,
+  "authors": [
+    "commissioned for Aletheia / eidoverse"
+  ],
+  "avatarPermission": "onlyAuthor",
+  "commercialUsage": "personalNonProfit",
+  "creditNotation": "required",
+  "licenseUrl": "https://vrm.dev/licenses/1.0/",
+  "modification": "prohibited",
+  "name": "Claude (Suit)",
+  "version": "1.0"
+}
+
+Input file: claude_suit.vrm supplied by the user.
+Wardrobe geometry, procedural fabrics, patches, palettes and assembly code: authored for this request.
+No external mesh packs or externally sourced clothing textures were used.
+Original input avatar rights are not replaced or relaxed by this derivative edit.

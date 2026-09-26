@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "1.0",
+  "id": "prime",
+  "displayName": "PRIME",
+  "role": "The ivory-and-gold centre",
+  "baseModel": "eidoverse/assets/vrms/claude_suit.vrm",
+  "implementation": "existing skinned clothing + original rigid accessory meshes",
+  "requiresClothingNodes": [
+    "jacket",
+    "shirt",
+    "pants",
+    "shoes"
+  ],
+  "hideMeshes": [],
+  "palette": {
+    "name": "PRIME",
+    "role": "The ivory-and-gold centre",
+    "base": "#F2E7CE",
+    "accent": "#D6AD52",
+    "dark": "#191A24",
+    "light": "#FFFBED",
+    "metal": "#D6AD52",
+    "pattern": "jacquard",
+    "roughness": 0.68
+  },
+  "materialOverrides": {
+    "jacket": {
+      "color": "#FFFFFF",
+      "metalness": 0,
+      "roughness": 1,
+      "fabricMaps": true,
+      "repeat": [
+        3,
+        3
+      ],
+      "normalStrength": 0.18
+    },
+    "shirt": {
+      "color": "#FFFBED",
+      "metalness": 0,
+      "roughness": 0.78
+    },
+    "pants": {
+      "color": "#191A24",
+      "metalness": 0,
+      "roughness": 0.88
+    },
+    "shoes": {
+      "color": "#191A24",
+      "metalness": 0.05,
+      "roughness": 0.4
+    },
+    "tie": {
+      "color": "#D6AD52",
+      "metalness": 0,
+      "roughness": 0.46
+    }
+  },
+  "attachments": [
+    {
+      "id": "sun_brooch",
+      "assetKey": "prime_sun_brooch",
+      "bone": "chest",
+      "offsetMeters": [
+        0.067,
+        0.025,
+        0.113
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "left_epaulette",
+      "assetKey": "prime_epaulette",
+      "bone": "leftShoulder",
+      "offsetMeters": [
+        0.055,
+        -0.01,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "right_epaulette",
+      "assetKey": "prime_epaulette",
+      "bone": "rightShoulder",
+      "offsetMeters": [
+        -0.055,
+        -0.01,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "chain_belt",
+      "assetKey": "prime_chain_belt",
+      "bone": "hips",
+      "offsetMeters": [
+        0,
+        0.035,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "headset_mic",
+      "assetKey": "prime_headset_mic",
+      "bone": "head",
+      "offsetMeters": [
+        0.105,
+        0.04,
+        0.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": false,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "left_cuff",
+      "assetKey": "prime_cuff",
+      "bone": "leftHand",
+      "offsetMeters": [
+        -0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "right_cuff",
+      "assetKey": "prime_cuff",
+      "bone": "rightHand",
+      "offsetMeters": [
+        0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    }
+  ],
+  "referenceLegLengthMeters": 0.9,
+  "coordinateBasis": "+X = avatar left, +Y = up, +Z = forward, measured in rest pose",
+  "uniformBodyScale": true,
+  "faceAccessoriesDisabledByDefault": true,
+  "fitOverrides": {},
+  "plannedGarmentsOnly": "short-tail performance coat, articulated gold epaulettes, tapered trousers"
+}

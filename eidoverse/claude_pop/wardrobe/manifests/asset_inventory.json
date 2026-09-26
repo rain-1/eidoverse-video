@@ -1,0 +1,300 @@
+{
+  "assetFiles": 42,
+  "totalTrianglesAcrossSeparateAssets": 207028,
+  "items": [
+    {
+      "file": "assets/echo/echo_belt_and_charms.glb",
+      "bytes": 256368,
+      "vertices": 4757,
+      "triangles": 8208,
+      "skinned": false
+    },
+    {
+      "file": "assets/echo/echo_chest_jewellery.glb",
+      "bytes": 357244,
+      "vertices": 6840,
+      "triangles": 11128,
+      "skinned": false
+    },
+    {
+      "file": "assets/echo/echo_headpiece.glb",
+      "bytes": 293992,
+      "vertices": 5616,
+      "triangles": 9192,
+      "skinned": false
+    },
+    {
+      "file": "assets/echo/echo_left_shoe_trim.glb",
+      "bytes": 21680,
+      "vertices": 322,
+      "triangles": 548,
+      "skinned": false
+    },
+    {
+      "file": "assets/echo/echo_left_wrist_cuff.glb",
+      "bytes": 147572,
+      "vertices": 2662,
+      "triangles": 4728,
+      "skinned": false
+    },
+    {
+      "file": "assets/echo/echo_right_shoe_trim.glb",
+      "bytes": 21684,
+      "vertices": 322,
+      "triangles": 548,
+      "skinned": false
+    },
+    {
+      "file": "assets/echo/echo_right_wrist_cuff.glb",
+      "bytes": 147576,
+      "vertices": 2662,
+      "triangles": 4728,
+      "skinned": false
+    },
+    {
+      "file": "assets/nova/nova_belt_and_charms.glb",
+      "bytes": 180352,
+      "vertices": 3299,
+      "triangles": 5700,
+      "skinned": false
+    },
+    {
+      "file": "assets/nova/nova_chest_jewellery.glb",
+      "bytes": 15508,
+      "vertices": 205,
+      "triangles": 352,
+      "skinned": false
+    },
+    {
+      "file": "assets/nova/nova_headpiece.glb",
+      "bytes": 24912,
+      "vertices": 403,
+      "triangles": 544,
+      "skinned": false
+    },
+    {
+      "file": "assets/nova/nova_left_shoe_trim.glb",
+      "bytes": 27896,
+      "vertices": 466,
+      "triangles": 620,
+      "skinned": false
+    },
+    {
+      "file": "assets/nova/nova_left_wrist_cuff.glb",
+      "bytes": 142216,
+      "vertices": 2562,
+      "triangles": 4488,
+      "skinned": false
+    },
+    {
+      "file": "assets/nova/nova_right_shoe_trim.glb",
+      "bytes": 27900,
+      "vertices": 466,
+      "triangles": 620,
+      "skinned": false
+    },
+    {
+      "file": "assets/nova/nova_right_wrist_cuff.glb",
+      "bytes": 142224,
+      "vertices": 2562,
+      "triangles": 4488,
+      "skinned": false
+    },
+    {
+      "file": "assets/pixel/pixel_belt_and_charms.glb",
+      "bytes": 257312,
+      "vertices": 4807,
+      "triangles": 8088,
+      "skinned": false
+    },
+    {
+      "file": "assets/pixel/pixel_chest_jewellery.glb",
+      "bytes": 107508,
+      "vertices": 1991,
+      "triangles": 3184,
+      "skinned": false
+    },
+    {
+      "file": "assets/pixel/pixel_headpiece.glb",
+      "bytes": 173092,
+      "vertices": 3084,
+      "triangles": 5736,
+      "skinned": false
+    },
+    {
+      "file": "assets/pixel/pixel_left_shoe_trim.glb",
+      "bytes": 21636,
+      "vertices": 322,
+      "triangles": 548,
+      "skinned": false
+    },
+    {
+      "file": "assets/pixel/pixel_left_wrist_cuff.glb",
+      "bytes": 143720,
+      "vertices": 2594,
+      "triangles": 4592,
+      "skinned": false
+    },
+    {
+      "file": "assets/pixel/pixel_right_shoe_trim.glb",
+      "bytes": 21644,
+      "vertices": 322,
+      "triangles": 548,
+      "skinned": false
+    },
+    {
+      "file": "assets/pixel/pixel_right_wrist_cuff.glb",
+      "bytes": 143724,
+      "vertices": 2594,
+      "triangles": 4592,
+      "skinned": false
+    },
+    {
+      "file": "assets/prime/prime_belt_and_charms.glb",
+      "bytes": 279900,
+      "vertices": 5245,
+      "triangles": 8868,
+      "skinned": false
+    },
+    {
+      "file": "assets/prime/prime_chest_jewellery.glb",
+      "bytes": 206748,
+      "vertices": 3965,
+      "triangles": 6320,
+      "skinned": false
+    },
+    {
+      "file": "assets/prime/prime_headpiece.glb",
+      "bytes": 180616,
+      "vertices": 3364,
+      "triangles": 5680,
+      "skinned": false
+    },
+    {
+      "file": "assets/prime/prime_left_shoe_trim.glb",
+      "bytes": 21680,
+      "vertices": 322,
+      "triangles": 548,
+      "skinned": false
+    },
+    {
+      "file": "assets/prime/prime_left_wrist_cuff.glb",
+      "bytes": 140624,
+      "vertices": 2538,
+      "triangles": 4480,
+      "skinned": false
+    },
+    {
+      "file": "assets/prime/prime_right_shoe_trim.glb",
+      "bytes": 21688,
+      "vertices": 322,
+      "triangles": 548,
+      "skinned": false
+    },
+    {
+      "file": "assets/prime/prime_right_wrist_cuff.glb",
+      "bytes": 140628,
+      "vertices": 2538,
+      "triangles": 4480,
+      "skinned": false
+    },
+    {
+      "file": "assets/shared/paperclip_charm.glb",
+      "bytes": 31588,
+      "vertices": 533,
+      "triangles": 944,
+      "skinned": false
+    },
+    {
+      "file": "assets/shared/stage_microphone.glb",
+      "bytes": 13944,
+      "vertices": 199,
+      "triangles": 304,
+      "skinned": false
+    },
+    {
+      "file": "assets/sol/sol_belt_and_charms.glb",
+      "bytes": 178012,
+      "vertices": 3271,
+      "triangles": 5648,
+      "skinned": false
+    },
+    {
+      "file": "assets/sol/sol_chest_jewellery.glb",
+      "bytes": 78156,
+      "vertices": 1422,
+      "triangles": 2260,
+      "skinned": false
+    },
+    {
+      "file": "assets/sol/sol_headpiece.glb",
+      "bytes": 90800,
+      "vertices": 1564,
+      "triangles": 2804,
+      "skinned": false
+    },
+    {
+      "file": "assets/sol/sol_left_shoe_trim.glb",
+      "bytes": 27884,
+      "vertices": 466,
+      "triangles": 620,
+      "skinned": false
+    },
+    {
+      "file": "assets/sol/sol_left_wrist_cuff.glb",
+      "bytes": 138972,
+      "vertices": 2510,
+      "triangles": 4424,
+      "skinned": false
+    },
+    {
+      "file": "assets/sol/sol_right_shoe_trim.glb",
+      "bytes": 27892,
+      "vertices": 466,
+      "triangles": 620,
+      "skinned": false
+    },
+    {
+      "file": "assets/sol/sol_right_wrist_cuff.glb",
+      "bytes": 138976,
+      "vertices": 2510,
+      "triangles": 4424,
+      "skinned": false
+    },
+    {
+      "file": "garments/echo_outerwear.glb",
+      "bytes": 918068,
+      "vertices": 7783,
+      "triangles": 13648,
+      "skinned": true
+    },
+    {
+      "file": "garments/nova_outerwear.glb",
+      "bytes": 742860,
+      "vertices": 8591,
+      "triangles": 14926,
+      "skinned": true
+    },
+    {
+      "file": "garments/pixel_outerwear.glb",
+      "bytes": 620288,
+      "vertices": 7015,
+      "triangles": 12254,
+      "skinned": true
+    },
+    {
+      "file": "garments/prime_outerwear.glb",
+      "bytes": 789516,
+      "vertices": 8623,
+      "triangles": 15098,
+      "skinned": true
+    },
+    {
+      "file": "garments/sol_outerwear.glb",
+      "bytes": 765900,
+      "vertices": 8603,
+      "triangles": 14950,
+      "skinned": true
+    }
+  ]
+}

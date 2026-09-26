@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0",
+  "id": "sol",
+  "displayName": "SOL",
+  "role": "The orange chaos engine",
+  "baseModel": "eidoverse/assets/vrms/claude_suit.vrm",
+  "implementation": "existing skinned clothing + original rigid accessory meshes",
+  "requiresClothingNodes": [
+    "jacket",
+    "shirt",
+    "pants",
+    "shoes"
+  ],
+  "hideMeshes": [
+    "tie"
+  ],
+  "palette": {
+    "name": "SOL",
+    "role": "The orange chaos engine",
+    "base": "#FF782D",
+    "accent": "#FFC04D",
+    "dark": "#242830",
+    "light": "#F4EAD9",
+    "metal": "#AAB3BC",
+    "pattern": "ripstop",
+    "roughness": 0.76
+  },
+  "materialOverrides": {
+    "jacket": {
+      "color": "#FFFFFF",
+      "metalness": 0,
+      "roughness": 1,
+      "fabricMaps": true,
+      "repeat": [
+        3,
+        3
+      ],
+      "normalStrength": 0.18
+    },
+    "shirt": {
+      "color": "#242830",
+      "metalness": 0,
+      "roughness": 0.78
+    },
+    "pants": {
+      "color": "#242830",
+      "metalness": 0,
+      "roughness": 0.88
+    },
+    "shoes": {
+      "color": "#F4EAD9",
+      "metalness": 0.05,
+      "roughness": 0.4
+    },
+    "tie": {
+      "color": "#FFC04D",
+      "metalness": 0,
+      "roughness": 0.46
+    }
+  },
+  "attachments": [
+    {
+      "id": "neck_goggles",
+      "assetKey": "sol_neck_goggles",
+      "bone": "chest",
+      "offsetMeters": [
+        0,
+        0.13,
+        0.01
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "warning_badge",
+      "assetKey": "sol_warning_badge",
+      "bone": "chest",
+      "offsetMeters": [
+        0.065,
+        0.02,
+        0.114
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 0.72,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "turbine_charm",
+      "assetKey": "sol_turbine_charm",
+      "bone": "hips",
+      "offsetMeters": [
+        0.135,
+        -0.055,
+        0.107
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "utility_belt",
+      "assetKey": "sol_utility_belt",
+      "bone": "hips",
+      "offsetMeters": [
+        0,
+        0.025,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "left_cuff",
+      "assetKey": "sol_cuff",
+      "bone": "leftHand",
+      "offsetMeters": [
+        -0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "right_cuff",
+      "assetKey": "sol_cuff",
+      "bone": "rightHand",
+      "offsetMeters": [
+        0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    }
+  ],
+  "referenceLegLengthMeters": 0.9,
+  "coordinateBasis": "+X = avatar left, +Y = up, +Z = forward, measured in rest pose",
+  "uniformBodyScale": true,
+  "faceAccessoriesDisabledByDefault": true,
+  "fitOverrides": {},
+  "plannedGarmentsOnly": "racing bomber, fitted webbing details, panelled joggers"
+}

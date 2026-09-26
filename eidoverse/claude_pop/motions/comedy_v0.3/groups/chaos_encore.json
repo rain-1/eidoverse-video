@@ -1,0 +1,438 @@
+{
+  "schema": "claude-baked-ensemble/0.3",
+  "id": "chaos_encore",
+  "label": "Maximum Chaos Encore",
+  "description": "A 64-beat comic dance break with hero poses, high knees, overheating, chicken, popping, a total freeze and a star-jump finale.",
+  "timingMode": "reference-tempo",
+  "referenceBpm": 120,
+  "auditionBpm": 130,
+  "totalBeats": 64,
+  "durationSeconds": 32.0,
+  "loop": false,
+  "formation": "stagger",
+  "uniformReferenceHipHeightMetres": 1.0,
+  "members": [
+    {
+      "id": "Claude-01",
+      "clip": "ensembles/chaos_encore/Claude-01.vrma",
+      "position": [
+        -3.6,
+        0,
+        -0.65
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-02",
+      "clip": "ensembles/chaos_encore/Claude-02.vrma",
+      "position": [
+        -1.8,
+        0,
+        0.25
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-03",
+      "clip": "ensembles/chaos_encore/Claude-03.vrma",
+      "position": [
+        0,
+        0,
+        -0.65
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-04",
+      "clip": "ensembles/chaos_encore/Claude-04.vrma",
+      "position": [
+        1.8,
+        0,
+        0.25
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-05",
+      "clip": "ensembles/chaos_encore/Claude-05.vrma",
+      "position": [
+        3.6,
+        0,
+        -0.65
+      ],
+      "bakedRootPath": []
+    }
+  ],
+  "sections": [
+    {
+      "startBeat": 0,
+      "endBeat": 8,
+      "move": "superhero_arrival",
+      "mode": "unison",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "An unnecessarily dramatic entrance.",
+      "memberRecipes": [
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "endBeat": 16,
+      "move": "march_of_gpus",
+      "mode": "mirror",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Precision: nominal.",
+      "memberRecipes": [
+        {
+          "move": "march_of_gpus",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "march_of_gpus",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "march_of_gpus",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "march_of_gpus",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "march_of_gpus",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 16,
+      "endBeat": 24,
+      "move": "overheat_fan",
+      "mode": "canon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Precision: decreasing.",
+      "memberRecipes": [
+        {
+          "move": "overheat_fan",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "overheat_fan",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "overheat_fan",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "overheat_fan",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "overheat_fan",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 24,
+      "endBeat": 32,
+      "move": "robot_chicken",
+      "mode": "spotlight",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Precision: chicken.",
+      "memberRecipes": [
+        {
+          "move": "nope_shuffle",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "robot_chicken",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 32,
+      "endBeat": 40,
+      "move": "popcorn_hops",
+      "mode": "reverseCanon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Everything starts popping.",
+      "memberRecipes": [
+        {
+          "move": "popcorn_hops",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "popcorn_hops",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "popcorn_hops",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "popcorn_hops",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "popcorn_hops",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 40,
+      "endBeat": 48,
+      "move": "buffering_freeze",
+      "mode": "unison",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "ALL SYSTEMS PAUSED.",
+      "memberRecipes": [
+        {
+          "move": "buffering_freeze",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "buffering_freeze",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "buffering_freeze",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "buffering_freeze",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "buffering_freeze",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 48,
+      "endBeat": 56,
+      "move": "windmill_charge",
+      "mode": "mirror",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "One last charge-up.",
+      "memberRecipes": [
+        {
+          "move": "windmill_charge",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 56,
+      "endBeat": 64,
+      "move": "confetti_finale",
+      "mode": "finish",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Land together. Hold the finish.",
+      "memberRecipes": [
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        }
+      ]
+    }
+  ],
+  "rootMotion": "In-place choreography, with local hip sway and authored jumps baked into the hips. Static formation roots.",
+  "timingNote": "All mirrors, delays and roles are baked. Start all lanes together; do not add offsets again."
+}

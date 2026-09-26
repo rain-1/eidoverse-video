@@ -1,0 +1,16 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 12,
+  "script": "eidoverse/claude_pop/wardrobe/scenes/wardrobe_lineup.js",
+  "outputVideo": "work/claude_pop/renders/lineup.mp4",
+  "skipPreflightQA": true,
+  "assets": {
+    "character_1": "work/claude_pop/vrms/claude_sol.vrm",
+    "character_2": "work/claude_pop/vrms/claude_nova.vrm",
+    "character_3": "work/claude_pop/vrms/claude_prime.vrm",
+    "character_4": "work/claude_pop/vrms/claude_pixel.vrm",
+    "character_5": "work/claude_pop/vrms/claude_echo.vrm"
+  }
+}

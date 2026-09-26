@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "name": "Comedy dance battle",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "arc",
+  "mode": "battle",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "sweep",
+  "phrases": [
+    {
+      "id": "36_wedding_uncle",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "37_penguin_shuffle",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "44_body_roll_battle",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "38_robot_malfunction",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "50_shopping_trolley",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "51_noodle_arms",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "53_mosquito_swatter",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "54_wrong_choreography",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion."
+}

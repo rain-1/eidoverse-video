@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0",
+  "id": "noir",
+  "displayName": "NOIR",
+  "role": "The purple dramatic one",
+  "baseModel": "eidoverse/assets/vrms/claude_suit.vrm",
+  "implementation": "existing skinned clothing + original rigid accessory meshes",
+  "requiresClothingNodes": [
+    "jacket",
+    "shirt",
+    "pants",
+    "shoes"
+  ],
+  "hideMeshes": [],
+  "palette": {
+    "name": "NOIR",
+    "role": "The purple dramatic one",
+    "base": "#743FB9",
+    "accent": "#B68BE5",
+    "dark": "#24172F",
+    "light": "#ECE0FF",
+    "metal": "#77788F",
+    "pattern": "orbit",
+    "roughness": 0.48
+  },
+  "materialOverrides": {
+    "jacket": {
+      "color": "#FFFFFF",
+      "metalness": 0,
+      "roughness": 1,
+      "fabricMaps": true,
+      "repeat": [
+        3,
+        3
+      ],
+      "normalStrength": 0.18
+    },
+    "shirt": {
+      "color": "#24172F",
+      "metalness": 0,
+      "roughness": 0.78
+    },
+    "pants": {
+      "color": "#24172F",
+      "metalness": 0,
+      "roughness": 0.88
+    },
+    "shoes": {
+      "color": "#24172F",
+      "metalness": 0.05,
+      "roughness": 0.4
+    },
+    "tie": {
+      "color": "#B68BE5",
+      "metalness": 0,
+      "roughness": 0.46
+    }
+  },
+  "attachments": [
+    {
+      "id": "crescent_brooch",
+      "assetKey": "noir_crescent_brooch",
+      "bone": "chest",
+      "offsetMeters": [
+        0.065,
+        0.02,
+        0.113
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "chain_collar",
+      "assetKey": "noir_chain_collar",
+      "bone": "chest",
+      "offsetMeters": [
+        0,
+        0.13,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "star_charm",
+      "assetKey": "noir_star_charm",
+      "bone": "hips",
+      "offsetMeters": [
+        0.135,
+        -0.05,
+        0.107
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "shoulder_arc",
+      "assetKey": "noir_shoulder_arc",
+      "bone": "leftShoulder",
+      "offsetMeters": [
+        0.06,
+        -0.005,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "left_cuff",
+      "assetKey": "noir_cuff",
+      "bone": "leftHand",
+      "offsetMeters": [
+        -0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "right_cuff",
+      "assetKey": "noir_cuff",
+      "bone": "rightHand",
+      "offsetMeters": [
+        0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    }
+  ],
+  "referenceLegLengthMeters": 0.9,
+  "coordinateBasis": "+X = avatar left, +Y = up, +Z = forward, measured in rest pose",
+  "uniformBodyScale": true,
+  "faceAccessoriesDisabledByDefault": true,
+  "fitOverrides": {},
+  "plannedGarmentsOnly": "asymmetric satin jacket, short split back panels, narrow trousers"
+}

@@ -1,0 +1,254 @@
+{
+  "schema": "claude-baked-ensemble/0.3",
+  "id": "wrong_way_rehearsal",
+  "label": "Wrong-Way Rehearsal",
+  "description": "Opposing diagonal turns, alternating disagreement, a correction ripple and a ludicrously confident final pose.",
+  "timingMode": "reference-tempo",
+  "referenceBpm": 120,
+  "auditionBpm": 130,
+  "totalBeats": 32,
+  "durationSeconds": 16.0,
+  "loop": false,
+  "formation": "line",
+  "uniformReferenceHipHeightMetres": 1.0,
+  "members": [
+    {
+      "id": "Claude-01",
+      "clip": "ensembles/wrong_way_rehearsal/Claude-01.vrma",
+      "position": [
+        -3.6,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-02",
+      "clip": "ensembles/wrong_way_rehearsal/Claude-02.vrma",
+      "position": [
+        -1.8,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-03",
+      "clip": "ensembles/wrong_way_rehearsal/Claude-03.vrma",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-04",
+      "clip": "ensembles/wrong_way_rehearsal/Claude-04.vrma",
+      "position": [
+        1.8,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-05",
+      "clip": "ensembles/wrong_way_rehearsal/Claude-05.vrma",
+      "position": [
+        3.6,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    }
+  ],
+  "sections": [
+    {
+      "startBeat": 0,
+      "endBeat": 8,
+      "move": "wrong_way",
+      "mode": "mirror",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Everyone learned a different tutorial.",
+      "memberRecipes": [
+        {
+          "move": "wrong_way",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "endBeat": 16,
+      "move": "nope_shuffle",
+      "mode": "alternating",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "No, your other left.",
+      "memberRecipes": [
+        {
+          "move": "nope_shuffle",
+          "mirrored": true,
+          "delayBeats": 0,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": true,
+          "delayBeats": 0,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": true,
+          "delayBeats": 0,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 16,
+      "endBeat": 24,
+      "move": "wrong_way",
+      "mode": "canon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Try it one dancer at a time.",
+      "memberRecipes": [
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "wrong_way",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 24,
+      "endBeat": 32,
+      "move": "superhero_arrival",
+      "mode": "unison",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Pretend the whole thing was intentional.",
+      "memberRecipes": [
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "superhero_arrival",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    }
+  ],
+  "rootMotion": "In-place choreography, with local hip sway and authored jumps baked into the hips. Static formation roots.",
+  "timingNote": "All mirrors, delays and roles are baked. Start all lanes together; do not add offsets again."
+}

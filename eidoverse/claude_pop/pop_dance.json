@@ -1,0 +1,13 @@
+{
+  "width": 640,
+  "height": 360,
+  "fps": 30,
+  "duration": 4,
+  "script": "eidoverse/claude_pop/pop_dance.js",
+  "outputVideo": "work/claude_pop/renders/pop_dance.mp4",
+  "skipPreflightQA": true,
+  "assets": {
+    "character_vrm": "work/claude_pop/vrms/claude_prime.vrm",
+    "dance": "eidoverse/claude_pop/motions/dance_v1/animations/suit/01_neon_step_touch.vrma"
+  }
+}

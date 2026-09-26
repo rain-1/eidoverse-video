@@ -1,0 +1,169 @@
+{
+  "version": 2,
+  "name": "Thirty move audition reel",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "v",
+  "mode": "unison",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "sweep",
+  "phrases": [
+    {
+      "id": "25_arena_stomp",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "26_finale_pogo",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "27_turbo_footwork",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "28_runway_royalty",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "29_action_hero",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "30_cheer_squad",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "31_star_jump_chorus",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "32_windmill_victory",
+      "startBeat": 56,
+      "beats": 8
+    },
+    {
+      "id": "33_stadium_clap_kick",
+      "startBeat": 64,
+      "beats": 8
+    },
+    {
+      "id": "34_rocket_launch",
+      "startBeat": 72,
+      "beats": 8
+    },
+    {
+      "id": "35_aegyo_overload",
+      "startBeat": 80,
+      "beats": 8
+    },
+    {
+      "id": "36_wedding_uncle",
+      "startBeat": 88,
+      "beats": 8
+    },
+    {
+      "id": "37_penguin_shuffle",
+      "startBeat": 96,
+      "beats": 8
+    },
+    {
+      "id": "38_robot_malfunction",
+      "startBeat": 104,
+      "beats": 8
+    },
+    {
+      "id": "39_dramatic_heartbreak",
+      "startBeat": 112,
+      "beats": 8
+    },
+    {
+      "id": "40_too_cool",
+      "startBeat": 120,
+      "beats": 8
+    },
+    {
+      "id": "41_variety_show",
+      "startBeat": 128,
+      "beats": 8
+    },
+    {
+      "id": "42_tiny_macho",
+      "startBeat": 136,
+      "beats": 8
+    },
+    {
+      "id": "43_sneaky_spy",
+      "startBeat": 144,
+      "beats": 8
+    },
+    {
+      "id": "44_body_roll_battle",
+      "startBeat": 152,
+      "beats": 8
+    },
+    {
+      "id": "45_mirror_duo",
+      "startBeat": 160,
+      "beats": 8
+    },
+    {
+      "id": "46_domino_wave",
+      "startBeat": 168,
+      "beats": 8
+    },
+    {
+      "id": "47_tiny_army",
+      "startBeat": 176,
+      "beats": 8
+    },
+    {
+      "id": "48_point_squad",
+      "startBeat": 184,
+      "beats": 8
+    },
+    {
+      "id": "49_heart_explosion",
+      "startBeat": 192,
+      "beats": 8
+    },
+    {
+      "id": "50_shopping_trolley",
+      "startBeat": 200,
+      "beats": 8
+    },
+    {
+      "id": "51_noodle_arms",
+      "startBeat": 208,
+      "beats": 8
+    },
+    {
+      "id": "52_buffering_99",
+      "startBeat": 216,
+      "beats": 8
+    },
+    {
+      "id": "53_mosquito_swatter",
+      "startBeat": 224,
+      "beats": 8
+    },
+    {
+      "id": "54_wrong_choreography",
+      "startBeat": 232,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion."
+}

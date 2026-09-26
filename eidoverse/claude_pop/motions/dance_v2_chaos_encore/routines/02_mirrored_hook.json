@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "name": "Mirrored hook",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "line",
+  "mode": "mirror",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.4,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "phrases": [
+    {
+      "id": "03_point_and_pull",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "08_overhead_heart",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "10_wrist_flick",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "19_sunburst_reach",
+      "startBeat": 24,
+      "beats": 8
+    }
+  ],
+  "note": "World formation is separate from skeletal animation. Requires a routine player; not one combined VRMA."
+}

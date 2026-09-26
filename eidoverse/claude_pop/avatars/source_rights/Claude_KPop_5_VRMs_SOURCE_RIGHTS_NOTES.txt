@@ -1,0 +1,31 @@
+AFTERGLOW — SOURCE RIGHTS AND ATTRIBUTION
+
+Source file: the user's uploaded claude_suit.vrm.
+Source authors field: commissioned for Aletheia / eidoverse
+Source model name: Claude (Suit)
+
+The uploaded VRM contains the following permission metadata:
+  avatarPermission: onlyAuthor
+  commercialUsage: personalNonProfit
+  creditNotation: required
+  modification: prohibited
+  allowRedistribution: false
+
+The edited files retain these fields and all other original rights/credit
+fields. Only the model display name is changed to identify the member.
+The original metadata is copied verbatim to docs/original-model-metadata.json.
+The derivative and source hash are identified separately in asset.extras and
+extras.stageWardrobe.
+
+No claim is made here that those restrictions were corrected or superseded.
+This pack is an editing deliverable for the user who supplied the model, not
+a new public license for the underlying avatar. Confirm the applicable creator
+or commissioning permissions before public distribution of the edited VRMs,
+commercial use or publication of a monetized music video. These metadata flags
+may need clarification with the creator if they differ from your commission
+agreement.
+
+The clothing adaptations, new accessory geometry, procedural fabric maps and
+wardrobe code were created for this project. They do not remove or override
+rights in the supplied Claude model. There are no extracted fashion-brand
+assets, celebrity likenesses or copied band logos in the added wardrobe.

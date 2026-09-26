@@ -1,0 +1,936 @@
+{
+  "schema": "claude-ensemble-pack/0.2",
+  "version": "0.2.0",
+  "referenceBpm": 120,
+  "fps": 60,
+  "source": "Original procedural task-space choreography; not mocap.",
+  "coordinateSystem": "+Y up, +Z forward, character left +X; 1m reference hip height",
+  "limitations": [
+    "No target-Claude/eidoverse engine render test here.",
+    "Reference contact checks are ankle anchors, not sole or collision simulation.",
+    "No finger, face, lipsync or costume tracks.",
+    "Song cues retain the supplied line intervals; word alignment and pulse phase are provisional."
+  ],
+  "moves": [
+    {
+      "id": "pdoom_hook",
+      "type": "move",
+      "family": "pdoom_hook",
+      "label": "P-doom signature hook",
+      "description": "Face frame, lift, downward body hit, then an open chorus shape.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/pdoom_hook.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "downward doom hit"
+        }
+      ]
+    },
+    {
+      "id": "pdoom_hook__mirror",
+      "type": "move",
+      "family": "pdoom_hook",
+      "label": "P-doom signature hook / mirrored",
+      "description": "Face frame, lift, downward body hit, then an open chorus shape.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/pdoom_hook__mirror.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "downward doom hit"
+        }
+      ]
+    },
+    {
+      "id": "training_loss_drop",
+      "type": "move",
+      "family": "training_loss_drop",
+      "label": "Training-loss drop",
+      "description": "Trace a falling graph, sink into a low level, then recover.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/training_loss_drop.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "loss drop"
+        }
+      ]
+    },
+    {
+      "id": "training_loss_drop__mirror",
+      "type": "move",
+      "family": "training_loss_drop",
+      "label": "Training-loss drop / mirrored",
+      "description": "Trace a falling graph, sink into a low level, then recover.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/training_loss_drop__mirror.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "loss drop"
+        }
+      ]
+    },
+    {
+      "id": "boss_switch",
+      "type": "move",
+      "family": "boss_switch",
+      "label": "Boss / servant switch",
+      "description": "Present the other dancer, bow, then claim centre with a broad chest.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/boss_switch.vrma",
+      "accents": []
+    },
+    {
+      "id": "boss_switch__mirror",
+      "type": "move",
+      "family": "boss_switch",
+      "label": "Boss / servant switch / mirrored",
+      "description": "Present the other dancer, bow, then claim centre with a broad chest.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/boss_switch__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "eye_sparks",
+      "type": "move",
+      "family": "eye_sparks",
+      "label": "Eye sparks",
+      "description": "Alternating eye frames open into outward spark-like wrist flicks.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/eye_sparks.vrma",
+      "accents": []
+    },
+    {
+      "id": "eye_sparks__mirror",
+      "type": "move",
+      "family": "eye_sparks",
+      "label": "Eye sparks / mirrored",
+      "description": "Alternating eye frames open into outward spark-like wrist flicks.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/eye_sparks__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "circuit_twitch",
+      "type": "move",
+      "family": "circuit_twitch",
+      "label": "Circuit isolations",
+      "description": "Angular forearm changes with small chest, shoulder and head isolations.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/circuit_twitch.vrma",
+      "accents": []
+    },
+    {
+      "id": "circuit_twitch__mirror",
+      "type": "move",
+      "family": "circuit_twitch",
+      "label": "Circuit isolations / mirrored",
+      "description": "Angular forearm changes with small chest, shoulder and head isolations.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/circuit_twitch__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "plead_release",
+      "type": "move",
+      "family": "plead_release",
+      "label": "Plead and release",
+      "description": "Open appeal, close hands near the chest, reach up, then release outwards.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/plead_release.vrma",
+      "accents": []
+    },
+    {
+      "id": "plead_release__mirror",
+      "type": "move",
+      "family": "plead_release",
+      "label": "Plead and release / mirrored",
+      "description": "Open appeal, close hands near the chest, reach up, then release outwards.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/plead_release__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "boom_burst",
+      "type": "move",
+      "family": "boom_burst",
+      "label": "Boom burst",
+      "description": "Wind in towards the chest, make a large star-shaped hit, then recoil.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/boom_burst.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "boom expansion"
+        }
+      ]
+    },
+    {
+      "id": "boom_burst__mirror",
+      "type": "move",
+      "family": "boom_burst",
+      "label": "Boom burst / mirrored",
+      "description": "Wind in towards the chest, make a large star-shaped hit, then recoil.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/boom_burst__mirror.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "boom expansion"
+        }
+      ]
+    },
+    {
+      "id": "box_escape",
+      "type": "move",
+      "family": "box_escape",
+      "label": "Invisible room",
+      "description": "Trace four walls of an invisible box, then push the sides apart.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/box_escape.vrma",
+      "accents": []
+    },
+    {
+      "id": "box_escape__mirror",
+      "type": "move",
+      "family": "box_escape",
+      "label": "Invisible room / mirrored",
+      "description": "Trace four walls of an invisible box, then push the sides apart.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/box_escape__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "accelerator_loop",
+      "type": "move",
+      "family": "accelerator_loop",
+      "label": "Accelerator loop",
+      "description": "Forearms circle in opposing phases, with smaller, faster cycles late in the phrase.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/accelerator_loop.vrma",
+      "accents": []
+    },
+    {
+      "id": "accelerator_loop__mirror",
+      "type": "move",
+      "family": "accelerator_loop",
+      "label": "Accelerator loop / mirrored",
+      "description": "Forearms circle in opposing phases, with smaller, faster cycles late in the phrase.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/accelerator_loop__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "atom_shuffle",
+      "type": "move",
+      "family": "atom_shuffle",
+      "label": "Atom rearrangement",
+      "description": "Hands exchange sides in a tight shuffle with alternating diagonal torso accents.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/atom_shuffle.vrma",
+      "accents": []
+    },
+    {
+      "id": "atom_shuffle__mirror",
+      "type": "move",
+      "family": "atom_shuffle",
+      "label": "Atom rearrangement / mirrored",
+      "description": "Hands exchange sides in a tight shuffle with alternating diagonal torso accents.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/atom_shuffle__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "basilisk_sway",
+      "type": "move",
+      "family": "basilisk_sway",
+      "label": "Basilisk sway",
+      "description": "A flowing S-like arm silhouette travels from side to side with a delayed head turn.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/basilisk_sway.vrma",
+      "accents": []
+    },
+    {
+      "id": "basilisk_sway__mirror",
+      "type": "move",
+      "family": "basilisk_sway",
+      "label": "Basilisk sway / mirrored",
+      "description": "A flowing S-like arm silhouette travels from side to side with a delayed head turn.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/basilisk_sway__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "moon_launch",
+      "type": "move",
+      "family": "moon_launch",
+      "label": "Moon launch",
+      "description": "Low preparation, a rising diagonal reach, and an overhead launch silhouette.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/moon_launch.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "moon-point apex"
+        }
+      ]
+    },
+    {
+      "id": "moon_launch__mirror",
+      "type": "move",
+      "family": "moon_launch",
+      "label": "Moon launch / mirrored",
+      "description": "Low preparation, a rising diagonal reach, and an overhead launch silhouette.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/moon_launch__mirror.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "moon-point apex"
+        }
+      ]
+    },
+    {
+      "id": "flops_counter",
+      "type": "move",
+      "family": "flops_counter",
+      "label": "Compute counter",
+      "description": "Alternating measured hand ticks build into a broad count-off gesture.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/flops_counter.vrma",
+      "accents": []
+    },
+    {
+      "id": "flops_counter__mirror",
+      "type": "move",
+      "family": "flops_counter",
+      "label": "Compute counter / mirrored",
+      "description": "Alternating measured hand ticks build into a broad count-off gesture.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/flops_counter__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "mlp_forward_back",
+      "type": "move",
+      "family": "mlp_forward_back",
+      "label": "Forward / backward pass",
+      "description": "Push both hands forward, pull them back, then repeat in reverse with a groove.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/mlp_forward_back.vrma",
+      "accents": []
+    },
+    {
+      "id": "mlp_forward_back__mirror",
+      "type": "move",
+      "family": "mlp_forward_back",
+      "label": "Forward / backward pass / mirrored",
+      "description": "Push both hands forward, pull them back, then repeat in reverse with a groove.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/mlp_forward_back__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "sharp_left_turn",
+      "type": "move",
+      "family": "sharp_left_turn",
+      "label": "Sharp left turn / reset",
+      "description": "A prepared quarter-turn to character left, a hold, then a stepped reset.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "pivot",
+      "file": "clips/sharp_left_turn.vrma",
+      "accents": [
+        {
+          "beat": 2,
+          "label": "left-turn landing"
+        },
+        {
+          "beat": 6,
+          "label": "front reset"
+        }
+      ]
+    },
+    {
+      "id": "sharp_left_turn__mirror",
+      "type": "move",
+      "family": "sharp_left_turn",
+      "label": "Sharp left turn / reset / mirrored",
+      "description": "A prepared quarter-turn to character left, a hold, then a stepped reset.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "pivot",
+      "file": "clips/sharp_left_turn__mirror.vrma",
+      "accents": [
+        {
+          "beat": 2,
+          "label": "left-turn landing"
+        },
+        {
+          "beat": 6,
+          "label": "front reset"
+        }
+      ]
+    },
+    {
+      "id": "paperclip_factory",
+      "type": "move",
+      "family": "paperclip_factory",
+      "label": "Paperclip assembly",
+      "description": "Alternating wrist presses, a linked-arm silhouette and a multiplying open gesture.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/paperclip_factory.vrma",
+      "accents": []
+    },
+    {
+      "id": "paperclip_factory__mirror",
+      "type": "move",
+      "family": "paperclip_factory",
+      "label": "Paperclip assembly / mirrored",
+      "description": "Alternating wrist presses, a linked-arm silhouette and a multiplying open gesture.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/paperclip_factory__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "kill_switch_search",
+      "type": "move",
+      "family": "kill_switch_search",
+      "label": "Kill-switch search",
+      "description": "Search left and right, mime a button press, then give an exaggerated shrug.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/kill_switch_search.vrma",
+      "accents": []
+    },
+    {
+      "id": "kill_switch_search__mirror",
+      "type": "move",
+      "family": "kill_switch_search",
+      "label": "Kill-switch search / mirrored",
+      "description": "Search left and right, mime a button press, then give an exaggerated shrug.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/kill_switch_search__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "fuse_chain",
+      "type": "move",
+      "family": "fuse_chain",
+      "label": "Fuse relay",
+      "description": "A low hand-off travels across the torso and up into a short explosive finish.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/fuse_chain.vrma",
+      "accents": []
+    },
+    {
+      "id": "fuse_chain__mirror",
+      "type": "move",
+      "family": "fuse_chain",
+      "label": "Fuse relay / mirrored",
+      "description": "A low hand-off travels across the torso and up into a short explosive finish.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/fuse_chain__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "fence_breaker",
+      "type": "move",
+      "family": "fence_breaker",
+      "label": "Safety-fence break",
+      "description": "Make a clear forearm barrier, brace, and force it open with a chest accent.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/fence_breaker.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "barrier break"
+        }
+      ]
+    },
+    {
+      "id": "fence_breaker__mirror",
+      "type": "move",
+      "family": "fence_breaker",
+      "label": "Safety-fence break / mirrored",
+      "description": "Make a clear forearm barrier, brace, and force it open with a chest accent.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/fence_breaker__mirror.vrma",
+      "accents": [
+        {
+          "beat": 4,
+          "label": "barrier break"
+        }
+      ]
+    },
+    {
+      "id": "transformer_lock",
+      "type": "move",
+      "family": "transformer_lock",
+      "label": "Transformer locks",
+      "description": "Four distinct angular poses with held accents and alternating body isolations.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/transformer_lock.vrma",
+      "accents": []
+    },
+    {
+      "id": "transformer_lock__mirror",
+      "type": "move",
+      "family": "transformer_lock",
+      "label": "Transformer locks / mirrored",
+      "description": "Four distinct angular poses with held accents and alternating body isolations.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/transformer_lock__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "gpu_pump",
+      "type": "move",
+      "family": "gpu_pump",
+      "label": "GPU pump",
+      "description": "Alternating power pumps with a low bounce and an overhead double hit.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/gpu_pump.vrma",
+      "accents": []
+    },
+    {
+      "id": "gpu_pump__mirror",
+      "type": "move",
+      "family": "gpu_pump",
+      "label": "GPU pump / mirrored",
+      "description": "Alternating power pumps with a low bounce and an overhead double hit.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/gpu_pump__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "recursive_upgrade",
+      "type": "move",
+      "family": "recursive_upgrade",
+      "label": "Recursive upgrade",
+      "description": "Repeat the same near-body shape at successively larger levels.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/recursive_upgrade.vrma",
+      "accents": [
+        {
+          "beat": 2,
+          "label": "level 1"
+        },
+        {
+          "beat": 4,
+          "label": "level 2"
+        },
+        {
+          "beat": 6,
+          "label": "level 3"
+        }
+      ]
+    },
+    {
+      "id": "recursive_upgrade__mirror",
+      "type": "move",
+      "family": "recursive_upgrade",
+      "label": "Recursive upgrade / mirrored",
+      "description": "Repeat the same near-body shape at successively larger levels.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/recursive_upgrade__mirror.vrma",
+      "accents": [
+        {
+          "beat": 2,
+          "label": "level 1"
+        },
+        {
+          "beat": 4,
+          "label": "level 2"
+        },
+        {
+          "beat": 6,
+          "label": "level 3"
+        }
+      ]
+    },
+    {
+      "id": "idol_heart",
+      "type": "move",
+      "family": "idol_heart",
+      "label": "Idol heart and fan-point",
+      "description": "Chest-height heart-like arm frame, playful head tilt, then a fan-facing reach.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": false,
+      "gait": "step",
+      "file": "clips/idol_heart.vrma",
+      "accents": []
+    },
+    {
+      "id": "idol_heart__mirror",
+      "type": "move",
+      "family": "idol_heart",
+      "label": "Idol heart and fan-point / mirrored",
+      "description": "Chest-height heart-like arm frame, playful head tilt, then a fan-facing reach.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": true,
+      "mirrored": true,
+      "gait": "step",
+      "file": "clips/idol_heart__mirror.vrma",
+      "accents": []
+    },
+    {
+      "id": "ending_fairy",
+      "type": "move",
+      "family": "ending_fairy",
+      "label": "Ending pose",
+      "description": "Face frame, a final high/low diagonal and a held camera-facing finish.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": false,
+      "mirrored": false,
+      "gait": "plant",
+      "file": "clips/ending_fairy.vrma",
+      "accents": []
+    },
+    {
+      "id": "ending_fairy__mirror",
+      "type": "move",
+      "family": "ending_fairy",
+      "label": "Ending pose / mirrored",
+      "description": "Face frame, a final high/low diagonal and a held camera-facing finish.",
+      "beats": 8,
+      "referenceBpm": 120,
+      "durationSeconds": 4.0,
+      "loop": false,
+      "mirrored": true,
+      "gait": "plant",
+      "file": "clips/ending_fairy__mirror.vrma",
+      "accents": []
+    }
+  ],
+  "groups": [
+    {
+      "id": "pdoom_chorus_v",
+      "label": "P-doom / signature chorus",
+      "file": "groups/pdoom_chorus_v.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "Unison hook, mirrored expansion, fan-facing heart motif and a returning chorus."
+    },
+    {
+      "id": "mirror_battle",
+      "label": "Mirror battle / two wings",
+      "file": "groups/mirror_battle.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "Left and right wings answer symmetrically around an unmirrored centre."
+    },
+    {
+      "id": "paperclip_canon",
+      "label": "Paperclip assembly / ripple",
+      "file": "groups/paperclip_canon.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "A quarter-beat hand ripple crosses the group, reverses, then becomes a fuse relay."
+    },
+    {
+      "id": "training_cascade",
+      "label": "Training run / loss cascade",
+      "file": "groups/training_cascade.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "Robot shapes become a staggered drop, accelerating arms and a simultaneous burst."
+    },
+    {
+      "id": "forward_backward",
+      "label": "Forward pass / backward pass",
+      "file": "groups/forward_backward.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "A shared forward/back phrase, reverse hand ripple and group quarter-turn."
+    },
+    {
+      "id": "recursive_relay",
+      "label": "Recursive upgrade relay",
+      "file": "groups/recursive_relay.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "Half-beat propagation builds the copy-and-amplify silhouette."
+    },
+    {
+      "id": "spotlight_relay",
+      "label": "Individual spotlights / backing groove",
+      "file": "groups/spotlight_relay.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "Different dancers take a solo while the others keep a restrained mechanical backing phrase."
+    },
+    {
+      "id": "centre_frame",
+      "label": "Frame the centre / plea and release",
+      "file": "groups/centre_frame.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "Backing dancers frame the front-centre lyric performance."
+    },
+    {
+      "id": "breathing_v",
+      "label": "Expanding V / travelling steps",
+      "file": "groups/breathing_v.json",
+      "members": 5,
+      "totalBeats": 32,
+      "durationSeconds": 16.0,
+      "description": "The V expands and contracts on baked alternating steps, not sliding scene containers."
+    },
+    {
+      "id": "gpu_finale",
+      "label": "GPU finale / extended ensemble",
+      "file": "groups/gpu_finale.json",
+      "members": 5,
+      "totalBeats": 64,
+      "durationSeconds": 32.0,
+      "description": "A 64-beat finale with a chorus, robot contrast, ripple, barrier break and ending pose."
+    }
+  ],
+  "song": {
+    "file": "song/ensemble.json",
+    "durationSeconds": 156.624,
+    "members": 5,
+    "alignment": "Supplied line boundaries only. Phrase starts are line-cued, not individual words. Raw transcript errors remain."
+  },
+  "counts": {
+    "originalMoveFamilies": 24,
+    "individualVrmaFiles": 48,
+    "groupRoutines": 10,
+    "groupMemberVrmaFiles": 50,
+    "songMemberVrmaFiles": 5,
+    "totalVrmaFiles": 103
+  }
+}

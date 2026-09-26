@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "name": "Five ridiculous solos / solo relay",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "arc",
+  "mode": "relay",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.4,
+  "cannonDelayBeats": 0.55,
+  "battleBlockBeats": 4,
+  "freezeHoldPhase": [
+    5.5,
+    7
+  ],
+  "transitionBeats": 0.55,
+  "loop": true,
+  "phrases": [
+    {
+      "id": "26_invisible_guitar_hero",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "31_tiny_violin_huge_drama",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "38_diva_hair_flip",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "29_shopping_trolley_shuffle",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "44_invisible_mic_drop",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "37_sneak_then_flex",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "25_galloping_superstar",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "48_finale_fireworks",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Group roles and timing are implemented by the v2 viewer. World placements are separate from the in-place skeleton clips."
+}

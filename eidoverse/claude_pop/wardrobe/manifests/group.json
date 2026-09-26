@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "name": "Claude & the Context Crew",
+  "stageOrder": [
+    "sol",
+    "nova",
+    "prime",
+    "pixel",
+    "echo"
+  ],
+  "members": [
+    "prime",
+    "pixel",
+    "nova",
+    "echo",
+    "sol"
+  ],
+  "unit": "metre",
+  "front": "+Z",
+  "assets": [
+    "assets/prime/prime_headpiece.glb",
+    "assets/prime/prime_chest_jewellery.glb",
+    "assets/prime/prime_belt_and_charms.glb",
+    "assets/prime/prime_left_wrist_cuff.glb",
+    "assets/prime/prime_right_wrist_cuff.glb",
+    "assets/prime/prime_left_shoe_trim.glb",
+    "assets/prime/prime_right_shoe_trim.glb",
+    "assets/pixel/pixel_headpiece.glb",
+    "assets/pixel/pixel_chest_jewellery.glb",
+    "assets/pixel/pixel_belt_and_charms.glb",
+    "assets/pixel/pixel_left_wrist_cuff.glb",
+    "assets/pixel/pixel_right_wrist_cuff.glb",
+    "assets/pixel/pixel_left_shoe_trim.glb",
+    "assets/pixel/pixel_right_shoe_trim.glb",
+    "assets/nova/nova_headpiece.glb",
+    "assets/nova/nova_chest_jewellery.glb",
+    "assets/nova/nova_belt_and_charms.glb",
+    "assets/nova/nova_left_wrist_cuff.glb",
+    "assets/nova/nova_right_wrist_cuff.glb",
+    "assets/nova/nova_left_shoe_trim.glb",
+    "assets/nova/nova_right_shoe_trim.glb",
+    "assets/echo/echo_headpiece.glb",
+    "assets/echo/echo_chest_jewellery.glb",
+    "assets/echo/echo_belt_and_charms.glb",
+    "assets/echo/echo_left_wrist_cuff.glb",
+    "assets/echo/echo_right_wrist_cuff.glb",
+    "assets/echo/echo_left_shoe_trim.glb",
+    "assets/echo/echo_right_shoe_trim.glb",
+    "assets/sol/sol_headpiece.glb",
+    "assets/sol/sol_chest_jewellery.glb",
+    "assets/sol/sol_belt_and_charms.glb",
+    "assets/sol/sol_left_wrist_cuff.glb",
+    "assets/sol/sol_right_wrist_cuff.glb",
+    "assets/sol/sol_left_shoe_trim.glb",
+    "assets/sol/sol_right_shoe_trim.glb"
+  ],
+  "referenceRig": {
+    "hips": {
+      "position": [
+        0,
+        1.0,
+        0
+      ],
+      "parent": null
+    },
+    "spine": {
+      "position": [
+        0,
+        1.15,
+        0
+      ],
+      "parent": "hips"
+    },
+    "chest": {
+      "position": [
+        0,
+        1.33,
+        0
+      ],
+      "parent": "spine"
+    },
+    "upperChest": {
+      "position": [
+        0,
+        1.47,
+        0
+      ],
+      "parent": "chest"
+    },
+    "neck": {
+      "position": [
+        0,
+        1.56,
+        0
+      ],
+      "parent": "upperChest"
+    },
+    "head": {
+      "position": [
+        0,
+        1.8,
+        0
+      ],
+      "parent": "neck"
+    },
+    "leftShoulder": {
+      "position": [
+        0.11,
+        1.47,
+        0
+      ],
+      "parent": "upperChest"
+    },
+    "leftUpperArm": {
+      "position": [
+        0.24,
+        1.46,
+        0
+      ],
+      "parent": "leftShoulder"
+    },
+    "leftLowerArm": {
+      "position": [
+        0.49,
+        1.46,
+        0
+      ],
+      "parent": "leftUpperArm"
+    },
+    "leftHand": {
+      "position": [
+        0.72,
+        1.46,
+        0
+      ],
+      "parent": "leftLowerArm"
+    },
+    "rightShoulder": {
+      "position": [
+        -0.11,
+        1.47,
+        0
+      ],
+      "parent": "upperChest"
+    },
+    "rightUpperArm": {
+      "position": [
+        -0.24,
+        1.46,
+        0
+      ],
+      "parent": "rightShoulder"
+    },
+    "rightLowerArm": {
+      "position": [
+        -0.49,
+        1.46,
+        0
+      ],
+      "parent": "rightUpperArm"
+    },
+    "rightHand": {
+      "position": [
+        -0.72,
+        1.46,
+        0
+      ],
+      "parent": "rightLowerArm"
+    },
+    "leftUpperLeg": {
+      "position": [
+        0.1,
+        0.98,
+        0
+      ],
+      "parent": "hips"
+    },
+    "leftLowerLeg": {
+      "position": [
+        0.1,
+        0.54,
+        0
+      ],
+      "parent": "leftUpperLeg"
+    },
+    "leftFoot": {
+      "position": [
+        0.1,
+        0.11,
+        0
+      ],
+      "parent": "leftLowerLeg"
+    },
+    "leftToes": {
+      "position": [
+        0.1,
+        0.055,
+        0.16
+      ],
+      "parent": "leftFoot"
+    },
+    "rightUpperLeg": {
+      "position": [
+        -0.1,
+        0.98,
+        0
+      ],
+      "parent": "hips"
+    },
+    "rightLowerLeg": {
+      "position": [
+        -0.1,
+        0.54,
+        0
+      ],
+      "parent": "rightUpperLeg"
+    },
+    "rightFoot": {
+      "position": [
+        -0.1,
+        0.11,
+        0
+      ],
+      "parent": "rightLowerLeg"
+    },
+    "rightToes": {
+      "position": [
+        -0.1,
+        0.055,
+        0.16
+      ],
+      "parent": "rightFoot"
+    }
+  },
+  "important": "Reference GLBs are NOT the actual Claude mesh. Run scripts/build_vrms.py against the source VRM to fit and bake the real avatars."
+}

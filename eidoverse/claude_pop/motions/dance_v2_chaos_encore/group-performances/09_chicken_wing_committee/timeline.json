@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "name": "Chicken-wing committee / perfect unison",
+  "sourceBpm": 120,
+  "durationSeconds": 32.0,
+  "beats": 64,
+  "sampleRate": 30,
+  "loop": true,
+  "actors": [
+    {
+      "id": "dancer_01",
+      "worldPosition": [
+        -3.1,
+        0,
+        0
+      ],
+      "worldRotationEuler": [
+        0,
+        0,
+        0
+      ],
+      "startSeconds": 0,
+      "suggestedModel": "suit"
+    },
+    {
+      "id": "dancer_02",
+      "worldPosition": [
+        -1.55,
+        0,
+        0
+      ],
+      "worldRotationEuler": [
+        0,
+        0,
+        0
+      ],
+      "startSeconds": 0,
+      "suggestedModel": "classic"
+    },
+    {
+      "id": "dancer_03",
+      "worldPosition": [
+        0.0,
+        0,
+        0
+      ],
+      "worldRotationEuler": [
+        0,
+        0,
+        0
+      ],
+      "startSeconds": 0,
+      "suggestedModel": "suit"
+    },
+    {
+      "id": "dancer_04",
+      "worldPosition": [
+        1.55,
+        0,
+        0
+      ],
+      "worldRotationEuler": [
+        0,
+        0,
+        0
+      ],
+      "startSeconds": 0,
+      "suggestedModel": "classic"
+    },
+    {
+      "id": "dancer_05",
+      "worldPosition": [
+        3.1,
+        0,
+        0
+      ],
+      "worldRotationEuler": [
+        0,
+        0,
+        0
+      ],
+      "startSeconds": 0,
+      "suggestedModel": "suit"
+    }
+  ],
+  "note": "Start all five matching tracks together. Timing, role swaps and crossfades are baked. Place avatar roots at the given world positions; those stage positions are NOT baked into the in-place skeleton files."
+}

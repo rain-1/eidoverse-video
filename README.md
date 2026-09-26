@@ -71,6 +71,8 @@ them with image, motion and sound inspection.
   stack underneath.
 - 30+ VRMA animation clips in `eidoverse/assets/animations/`
   (`playVRMADefault`, `playVRMAFromBase64`, `createVRMAnimationClip`).
+- [Claude Pop cast, wardrobe and 601 dance clips](eidoverse/claude_pop/README.md)
+  from the supplied packs, with a ready-to-render scene.
 - Lipsync: `lipsync.py` turns any vocal audio into per-frame viseme
   timelines for VRM mouths.
 

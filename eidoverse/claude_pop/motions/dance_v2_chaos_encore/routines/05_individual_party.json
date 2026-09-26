@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "name": "Individual party",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "line",
+  "mode": "freestyle",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.4,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "phrases": [
+    {
+      "id": "01_neon_step_touch",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "05_shoulder_pops",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "13_march_pump",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "16_side_shuffle",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "10_wrist_flick",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "18_double_bounce",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "19_sunburst_reach",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "24_ending_fairy",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "World formation is separate from skeletal animation. Requires a routine player; not one combined VRMA."
+}
