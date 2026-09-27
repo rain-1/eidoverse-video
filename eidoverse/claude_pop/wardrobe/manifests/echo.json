@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "echo",
+  "name": "ECHO",
+  "role": "Dramatic / mysterious",
+  "color": "#6E49B8",
+  "accent": "#B69AE8",
+  "dark": "#191522",
+  "light": "#DDD4EF",
+  "metal": "#A7A3B8",
+  "emblem": "crescent",
+  "fabric": "Violet star jacquard",
+  "silhouette": "Asymmetric split coat",
+  "baseVRM": "eidoverse/assets/vrms/claude_suit.vrm",
+  "hideOriginalMeshes": [
+    "jacket",
+    "tie"
+  ],
+  "garment": "garments/echo_outerwear.glb",
+  "attachments": [
+    {
+      "id": "echo_headpiece",
+      "asset": "assets/echo/echo_headpiece.glb",
+      "bone": "head",
+      "fitSpace": "head",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "echo_chest_jewellery",
+      "asset": "assets/echo/echo_chest_jewellery.glb",
+      "bone": "upperChest",
+      "fitSpace": "chest",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "echo_belt_and_charms",
+      "asset": "assets/echo/echo_belt_and_charms.glb",
+      "bone": "hips",
+      "fitSpace": "hips",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "echo_left_wrist_cuff",
+      "asset": "assets/echo/echo_left_wrist_cuff.glb",
+      "bone": "leftLowerArm",
+      "fitSpace": "wrist",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "echo_right_wrist_cuff",
+      "asset": "assets/echo/echo_right_wrist_cuff.glb",
+      "bone": "rightLowerArm",
+      "fitSpace": "wrist",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "echo_left_shoe_trim",
+      "asset": "assets/echo/echo_left_shoe_trim.glb",
+      "bone": "leftFoot",
+      "fitSpace": "foot",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "echo_right_shoe_trim",
+      "asset": "assets/echo/echo_right_shoe_trim.glb",
+      "bone": "rightFoot",
+      "fitSpace": "foot",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "fit": {
+    "bodyWidthPadding": 1.08,
+    "bodyDepthPadding": 1.12,
+    "sleevePadding": 1.1,
+    "headScale": [
+      1,
+      1,
+      1
+    ],
+    "headOffset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "notes": [
+    "Garment replaces the original jacket; original shirt, pants and shoes are retained and re-materialed.",
+    "Tail panels are skinned, not simulated cloth. Accessories are rigid bone children.",
+    "Per-avatar fitting and dance QA are still required."
+  ]
+}

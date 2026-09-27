@@ -1,0 +1,254 @@
+{
+  "schema": "claude-baked-ensemble/0.3",
+  "id": "noodle_factory",
+  "label": "Noodle Factory Shift",
+  "description": "Fluid arm ripples build into windmills, alternate with controlled drooping bodies, and inexplicably turn into chicken choreography.",
+  "timingMode": "reference-tempo",
+  "referenceBpm": 120,
+  "auditionBpm": 130,
+  "totalBeats": 32,
+  "durationSeconds": 16.0,
+  "loop": false,
+  "formation": "v",
+  "uniformReferenceHipHeightMetres": 1.0,
+  "members": [
+    {
+      "id": "Claude-01",
+      "clip": "ensembles/noodle_factory/Claude-01.vrma",
+      "position": [
+        -3.6,
+        0,
+        -1.2
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-02",
+      "clip": "ensembles/noodle_factory/Claude-02.vrma",
+      "position": [
+        -1.8,
+        0,
+        -0.6
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-03",
+      "clip": "ensembles/noodle_factory/Claude-03.vrma",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-04",
+      "clip": "ensembles/noodle_factory/Claude-04.vrma",
+      "position": [
+        1.8,
+        0,
+        -0.6
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-05",
+      "clip": "ensembles/noodle_factory/Claude-05.vrma",
+      "position": [
+        3.6,
+        0,
+        -1.2
+      ],
+      "bakedRootPath": []
+    }
+  ],
+  "sections": [
+    {
+      "startBeat": 0,
+      "endBeat": 8,
+      "move": "noodle_arms",
+      "mode": "canon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Noodle protocol propagates.",
+      "memberRecipes": [
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "endBeat": 16,
+      "move": "windmill_charge",
+      "mode": "reverseCanon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Increase noodle throughput.",
+      "memberRecipes": [
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "windmill_charge",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 16,
+      "endBeat": 24,
+      "move": "ragdoll_reboot",
+      "mode": "alternating",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Some noodles need a restart.",
+      "memberRecipes": [
+        {
+          "move": "ragdoll_reboot",
+          "mirrored": true,
+          "delayBeats": 0,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "ragdoll_reboot",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "ragdoll_reboot",
+          "mirrored": true,
+          "delayBeats": 0,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "ragdoll_reboot",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        },
+        {
+          "move": "ragdoll_reboot",
+          "mirrored": true,
+          "delayBeats": 0,
+          "activeBeats": 7.5,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 24,
+      "endBeat": 32,
+      "move": "robot_chicken",
+      "mode": "mirror",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "The factory made the wrong product.",
+      "memberRecipes": [
+        {
+          "move": "robot_chicken",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "robot_chicken",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "robot_chicken",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "robot_chicken",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "robot_chicken",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    }
+  ],
+  "rootMotion": "In-place choreography, with local hip sway and authored jumps baked into the hips. Static formation roots.",
+  "timingNote": "All mirrors, delays and roles are baked. Start all lanes together; do not add offsets again."
+}

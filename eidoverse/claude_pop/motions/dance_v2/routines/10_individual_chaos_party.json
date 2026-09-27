@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "name": "Individual chaos party",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "arc",
+  "mode": "freestyle",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "front",
+  "phrases": [
+    {
+      "id": "41_variety_show",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "50_shopping_trolley",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "51_noodle_arms",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "36_wedding_uncle",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "53_mosquito_swatter",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "52_buffering_99",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "40_too_cool",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "49_heart_explosion",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion."
+}

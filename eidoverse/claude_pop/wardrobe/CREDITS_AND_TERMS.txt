@@ -1,0 +1,5 @@
+Claude Pop fitted wardrobe
+
+Wardrobe geometry, accessories, textures and generated dressed variants are contributed by rain-1 under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Claude suit model: digi. Claudesona design: voooooogel. Their creator credits remain in the repository CREDITS.md. The local builder leaves the source VRM unchanged and writes dressed variants to ignored work/claude_pop/vrms/.

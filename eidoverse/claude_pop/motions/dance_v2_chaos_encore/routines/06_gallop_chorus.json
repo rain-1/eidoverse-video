@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "name": "Gallop chorus / mirrored mayhem",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "v",
+  "mode": "mirror",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.4,
+  "cannonDelayBeats": 0.55,
+  "battleBlockBeats": 4,
+  "freezeHoldPhase": [
+    5.5,
+    7
+  ],
+  "transitionBeats": 0.55,
+  "loop": true,
+  "phrases": [
+    {
+      "id": "25_galloping_superstar",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "28_chicken_wing_champion",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "33_crab_rave_committee",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "25_galloping_superstar",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "39_windmill_hype",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "42_knees_up_kick_line",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "35_disco_rocket",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "48_finale_fireworks",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Group roles and timing are implemented by the v2 viewer. World placements are separate from the in-place skeleton clips."
+}

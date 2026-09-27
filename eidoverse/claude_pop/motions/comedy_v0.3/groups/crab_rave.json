@@ -1,0 +1,254 @@
+{
+  "schema": "claude-baked-ensemble/0.3",
+  "id": "crab_rave",
+  "label": "Crab Rave Committee",
+  "description": "Wide side taps and claw silhouettes, a travelling timing ripple, noodle contrast and a synchronized star finish. Formation roots stay fixed.",
+  "timingMode": "reference-tempo",
+  "referenceBpm": 120,
+  "auditionBpm": 130,
+  "totalBeats": 32,
+  "durationSeconds": 16.0,
+  "loop": false,
+  "formation": "line",
+  "uniformReferenceHipHeightMetres": 1.0,
+  "members": [
+    {
+      "id": "Claude-01",
+      "clip": "ensembles/crab_rave/Claude-01.vrma",
+      "position": [
+        -3.6,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-02",
+      "clip": "ensembles/crab_rave/Claude-02.vrma",
+      "position": [
+        -1.8,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-03",
+      "clip": "ensembles/crab_rave/Claude-03.vrma",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-04",
+      "clip": "ensembles/crab_rave/Claude-04.vrma",
+      "position": [
+        1.8,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-05",
+      "clip": "ensembles/crab_rave/Claude-05.vrma",
+      "position": [
+        3.6,
+        0,
+        0
+      ],
+      "bakedRootPath": []
+    }
+  ],
+  "sections": [
+    {
+      "startBeat": 0,
+      "endBeat": 8,
+      "move": "crab_rave",
+      "mode": "mirror",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Activate crustacean mode.",
+      "memberRecipes": [
+        {
+          "move": "crab_rave",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "endBeat": 16,
+      "move": "crab_rave",
+      "mode": "canon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "A pincer ripple crosses the stage.",
+      "memberRecipes": [
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "crab_rave",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 16,
+      "endBeat": 24,
+      "move": "noodle_arms",
+      "mode": "reverseCanon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "The committee loses its rigidity.",
+      "memberRecipes": [
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "noodle_arms",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 24,
+      "endBeat": 32,
+      "move": "confetti_finale",
+      "mode": "finish",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Unreasonably enthusiastic conclusion.",
+      "memberRecipes": [
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        },
+        {
+          "move": "confetti_finale",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": true
+        }
+      ]
+    }
+  ],
+  "rootMotion": "In-place choreography, with local hip sway and authored jumps baked into the hips. Static formation roots.",
+  "timingNote": "All mirrors, delays and roles are baked. Start all lanes together; do not add offsets again."
+}

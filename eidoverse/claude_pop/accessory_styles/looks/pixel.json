@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0",
+  "id": "pixel",
+  "displayName": "PIXEL",
+  "role": "The pink mischief-maker",
+  "baseModel": "eidoverse/assets/vrms/claude_suit.vrm",
+  "implementation": "existing skinned clothing + original rigid accessory meshes",
+  "requiresClothingNodes": [
+    "jacket",
+    "shirt",
+    "pants",
+    "shoes"
+  ],
+  "hideMeshes": [
+    "tie"
+  ],
+  "palette": {
+    "name": "PIXEL",
+    "role": "The pink mischief-maker",
+    "base": "#F35CA6",
+    "accent": "#FFE1EE",
+    "dark": "#23212B",
+    "light": "#FFF2F8",
+    "metal": "#C2CCD8",
+    "pattern": "quilt",
+    "roughness": 0.42
+  },
+  "materialOverrides": {
+    "jacket": {
+      "color": "#FFFFFF",
+      "metalness": 0,
+      "roughness": 1,
+      "fabricMaps": true,
+      "repeat": [
+        3,
+        3
+      ],
+      "normalStrength": 0.18
+    },
+    "shirt": {
+      "color": "#FFF2F8",
+      "metalness": 0,
+      "roughness": 0.78
+    },
+    "pants": {
+      "color": "#23212B",
+      "metalness": 0,
+      "roughness": 0.88
+    },
+    "shoes": {
+      "color": "#FFF2F8",
+      "metalness": 0.05,
+      "roughness": 0.4
+    },
+    "tie": {
+      "color": "#FFE1EE",
+      "metalness": 0,
+      "roughness": 0.46
+    }
+  },
+  "attachments": [
+    {
+      "id": "neck_headphones",
+      "assetKey": "pixel_neck_headphones",
+      "bone": "chest",
+      "offsetMeters": [
+        0,
+        0.13,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "buffer_buddy",
+      "assetKey": "pixel_buffer_buddy",
+      "bone": "hips",
+      "offsetMeters": [
+        0.135,
+        -0.05,
+        0.105
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "heart_brooch",
+      "assetKey": "pixel_heart_brooch",
+      "bone": "chest",
+      "offsetMeters": [
+        0.065,
+        0.03,
+        0.11
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 0.72,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "heart_buckle",
+      "assetKey": "pixel_heart_buckle",
+      "bone": "hips",
+      "offsetMeters": [
+        0,
+        0.035,
+        0.107
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "left_cuff",
+      "assetKey": "pixel_cuff",
+      "bone": "leftHand",
+      "offsetMeters": [
+        -0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    },
+    {
+      "id": "right_cuff",
+      "assetKey": "pixel_cuff",
+      "bone": "rightHand",
+      "offsetMeters": [
+        0.035,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.05,
+      "enabled": true,
+      "fitStatus": "reference-size; check on target avatar"
+    }
+  ],
+  "referenceLegLengthMeters": 0.9,
+  "coordinateBasis": "+X = avatar left, +Y = up, +Z = forward, measured in rest pose",
+  "uniformBodyScale": true,
+  "faceAccessoriesDisabledByDefault": true,
+  "fitOverrides": {},
+  "plannedGarmentsOnly": "cropped quilted bomber, contrast piping, fitted dance trousers"
+}

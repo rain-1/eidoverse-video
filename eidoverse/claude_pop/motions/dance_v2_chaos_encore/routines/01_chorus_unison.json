@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "name": "Chorus / big unison",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "v",
+  "mode": "unison",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.4,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "phrases": [
+    {
+      "id": "02_disco_diagonals",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "12_chest_hit",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "18_double_bounce",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "02_disco_diagonals",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "20_tutting_boxes",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "12_chest_hit",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "18_double_bounce",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "24_ending_fairy",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "World formation is separate from skeletal animation. Requires a routine player; not one combined VRMA."
+}

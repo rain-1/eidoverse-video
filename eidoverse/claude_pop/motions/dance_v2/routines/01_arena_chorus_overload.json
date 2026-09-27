@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "name": "Arena chorus overload",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "v",
+  "mode": "unison",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "sweep",
+  "phrases": [
+    {
+      "id": "25_arena_stomp",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "30_cheer_squad",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "31_star_jump_chorus",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "27_turbo_footwork",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "32_windmill_victory",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "33_stadium_clap_kick",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "34_rocket_launch",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "26_finale_pogo",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion."
+}

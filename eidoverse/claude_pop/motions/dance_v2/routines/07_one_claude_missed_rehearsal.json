@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "name": "One Claude missed rehearsal",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "v",
+  "mode": "chaos",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "front",
+  "phrases": [
+    {
+      "id": "48_point_squad",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "47_tiny_army",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "25_arena_stomp",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "30_cheer_squad",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "45_mirror_duo",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "33_stadium_clap_kick",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "31_star_jump_chorus",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "49_heart_explosion",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion.",
+  "rivalIndex": 1
+}

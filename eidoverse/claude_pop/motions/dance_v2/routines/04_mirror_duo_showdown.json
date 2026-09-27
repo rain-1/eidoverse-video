@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "name": "Mirror duo showdown",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "line",
+  "mode": "mirror",
+  "dancers": 2,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "front",
+  "phrases": [
+    {
+      "id": "45_mirror_duo",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "48_point_squad",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "29_action_hero",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "28_runway_royalty",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "44_body_roll_battle",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "42_tiny_macho",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "45_mirror_duo",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "49_heart_explosion",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion."
+}

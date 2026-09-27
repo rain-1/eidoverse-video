@@ -1,0 +1,689 @@
+{
+  "version": "1.0",
+  "assets": [
+    {
+      "id": "prime_headset_mic",
+      "file": "assets/prime_headset_mic.glb",
+      "member": "prime",
+      "triangles": 1168,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.06549999862909317,
+          -0.039500001817941666,
+          -0.009999999776482582
+        ],
+        [
+          0.014499999582767487,
+          0.0215000007301569,
+          0.05849999934434891
+        ]
+      ],
+      "bytes": 36816
+    },
+    {
+      "id": "prime_sun_brooch",
+      "file": "assets/prime_sun_brooch.glb",
+      "member": "prime",
+      "triangles": 704,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.039000000804662704,
+          -0.039000000804662704,
+          -0.003000000026077032
+        ],
+        [
+          0.039000000804662704,
+          0.039000000804662704,
+          0.01600000075995922
+        ]
+      ],
+      "bytes": 23828
+    },
+    {
+      "id": "prime_epaulette",
+      "file": "assets/prime_epaulette.glb",
+      "member": "prime",
+      "triangles": 1372,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.05700000002980232,
+          -0.013000000268220901,
+          -0.03750000149011612
+        ],
+        [
+          0.05700000002980232,
+          0.027165062725543976,
+          0.03750000149011612
+        ]
+      ],
+      "bytes": 44400
+    },
+    {
+      "id": "prime_cuff",
+      "file": "assets/prime_cuff.glb",
+      "member": "prime",
+      "triangles": 4480,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.019999999552965164,
+          -0.042500000447034836,
+          -0.04450000077486038
+        ],
+        [
+          0.019999999552965164,
+          0.042500000447034836,
+          0.04600000008940697
+        ]
+      ],
+      "bytes": 131056
+    },
+    {
+      "id": "prime_chain_belt",
+      "file": "assets/prime_chain_belt.glb",
+      "member": "prime",
+      "triangles": 20384,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.1687181442975998,
+          -0.07900000363588333,
+          -0.10585778206586838
+        ],
+        [
+          0.16979999840259552,
+          0.017999999225139618,
+          0.12099999934434891
+        ]
+      ],
+      "bytes": 574900
+    },
+    {
+      "id": "pixel_neck_headphones",
+      "file": "assets/pixel_neck_headphones.glb",
+      "member": "pixel",
+      "triangles": 3232,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.1289999932050705,
+          -0.057500001043081284,
+          -0.029500000178813934
+        ],
+        [
+          0.1289999932050705,
+          0.014000000432133675,
+          0.08991452306509018
+        ]
+      ],
+      "bytes": 96144
+    },
+    {
+      "id": "pixel_buffer_buddy",
+      "file": "assets/pixel_buffer_buddy.glb",
+      "member": "pixel",
+      "triangles": 1988,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.03200000151991844,
+          -0.04050000011920929,
+          -0.014999999664723873
+        ],
+        [
+          0.03200000151991844,
+          0.05979999899864197,
+          0.020500000566244125
+        ]
+      ],
+      "bytes": 61364
+    },
+    {
+      "id": "pixel_heart_brooch",
+      "file": "assets/pixel_heart_brooch.glb",
+      "member": "pixel",
+      "triangles": 256,
+      "materialCount": 2,
+      "boundsMeters": [
+        [
+          -0.03400000184774399,
+          -0.03400000184774399,
+          -0.0035000001080334187
+        ],
+        [
+          0.03400000184774399,
+          0.03400000184774399,
+          0.008500000461935997
+        ]
+      ],
+      "bytes": 10112
+    },
+    {
+      "id": "pixel_cuff",
+      "file": "assets/pixel_cuff.glb",
+      "member": "pixel",
+      "triangles": 4480,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.019999999552965164,
+          -0.042500000447034836,
+          -0.04450000077486038
+        ],
+        [
+          0.019999999552965164,
+          0.042500000447034836,
+          0.04600000008940697
+        ]
+      ],
+      "bytes": 131040
+    },
+    {
+      "id": "pixel_heart_buckle",
+      "file": "assets/pixel_heart_buckle.glb",
+      "member": "pixel",
+      "triangles": 704,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.03700000047683716,
+          -0.027000000700354576,
+          -0.004999999888241291
+        ],
+        [
+          0.04050000011920929,
+          0.027000000700354576,
+          0.012500000186264515
+        ]
+      ],
+      "bytes": 23828
+    },
+    {
+      "id": "nova_visor",
+      "file": "assets/nova_visor.glb",
+      "member": "nova",
+      "triangles": 696,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.10596232116222382,
+          -0.023000000044703484,
+          -0.05047397315502167
+        ],
+        [
+          0.10596232116222382,
+          0.023000000044703484,
+          0.011500000022351742
+        ]
+      ],
+      "bytes": 25532
+    },
+    {
+      "id": "nova_shoulder_module",
+      "file": "assets/nova_shoulder_module.glb",
+      "member": "nova",
+      "triangles": 744,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.042500000447034836,
+          -0.024000000208616257,
+          -0.013000000268220901
+        ],
+        [
+          0.042500000447034836,
+          0.024000000208616257,
+          0.02500000037252903
+        ]
+      ],
+      "bytes": 25424
+    },
+    {
+      "id": "nova_gpu_pendant",
+      "file": "assets/nova_gpu_pendant.glb",
+      "member": "nova",
+      "triangles": 1404,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.032499998807907104,
+          -0.02199999988079071,
+          -0.0044999998062849045
+        ],
+        [
+          0.032499998807907104,
+          0.03440000116825104,
+          0.01549999974668026
+        ]
+      ],
+      "bytes": 44980
+    },
+    {
+      "id": "nova_cuff",
+      "file": "assets/nova_cuff.glb",
+      "member": "nova",
+      "triangles": 4480,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.019999999552965164,
+          -0.042500000447034836,
+          -0.04450000077486038
+        ],
+        [
+          0.019999999552965164,
+          0.042500000447034836,
+          0.04600000008940697
+        ]
+      ],
+      "bytes": 131040
+    },
+    {
+      "id": "nova_utility_belt",
+      "file": "assets/nova_utility_belt.glb",
+      "member": "nova",
+      "triangles": 4280,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.16249999403953552,
+          -0.04800000041723251,
+          -0.09950000047683716
+        ],
+        [
+          0.16249999403953552,
+          0.017999999225139618,
+          0.12099999934434891
+        ]
+      ],
+      "bytes": 125452
+    },
+    {
+      "id": "noir_crescent_brooch",
+      "file": "assets/noir_crescent_brooch.glb",
+      "member": "noir",
+      "triangles": 1024,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.039936721324920654,
+          -0.03994619473814964,
+          -0.00570633914321661
+        ],
+        [
+          0.029774222522974014,
+          0.03994619473814964,
+          0.008500000461935997
+        ]
+      ],
+      "bytes": 32832
+    },
+    {
+      "id": "noir_chain_collar",
+      "file": "assets/noir_chain_collar.glb",
+      "member": "noir",
+      "triangles": 17728,
+      "materialCount": 2,
+      "boundsMeters": [
+        [
+          -0.10606859624385834,
+          -0.10400000214576721,
+          -0.0712926834821701
+        ],
+        [
+          0.10700000077486038,
+          -0.0020396308973431587,
+          0.07850000262260437
+        ]
+      ],
+      "bytes": 499244
+    },
+    {
+      "id": "noir_star_charm",
+      "file": "assets/noir_star_charm.glb",
+      "member": "noir",
+      "triangles": 992,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.02800000086426735,
+          -0.02800000086426735,
+          -0.003000000026077032
+        ],
+        [
+          0.02800000086426735,
+          0.05950000137090683,
+          0.007499999832361937
+        ]
+      ],
+      "bytes": 31900
+    },
+    {
+      "id": "noir_cuff",
+      "file": "assets/noir_cuff.glb",
+      "member": "noir",
+      "triangles": 4480,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.019999999552965164,
+          -0.042500000447034836,
+          -0.04450000077486038
+        ],
+        [
+          0.019999999552965164,
+          0.042500000447034836,
+          0.04600000008940697
+        ]
+      ],
+      "bytes": 131040
+    },
+    {
+      "id": "noir_shoulder_arc",
+      "file": "assets/noir_shoulder_arc.glb",
+      "member": "noir",
+      "triangles": 2112,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.05299999937415123,
+          -0.011500000022351742,
+          -0.03849999979138374
+        ],
+        [
+          0.05299999937415123,
+          0.03999999910593033,
+          0.03999999910593033
+        ]
+      ],
+      "bytes": 63168
+    },
+    {
+      "id": "sol_neck_goggles",
+      "file": "assets/sol_neck_goggles.glb",
+      "member": "sol",
+      "triangles": 2828,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.10697909444570541,
+          -0.03099999949336052,
+          -0.0005405651754699647
+        ],
+        [
+          0.10697909444570541,
+          0.03099999949336052,
+          0.07689230144023895
+        ]
+      ],
+      "bytes": 84624
+    },
+    {
+      "id": "sol_warning_badge",
+      "file": "assets/sol_warning_badge.glb",
+      "member": "sol",
+      "triangles": 384,
+      "materialCount": 3,
+      "boundsMeters": [
+        [
+          -0.032999999821186066,
+          -0.026000000536441803,
+          -0.0035000001080334187
+        ],
+        [
+          0.032999999821186066,
+          0.032999999821186066,
+          0.008999999612569809
+        ]
+      ],
+      "bytes": 14924
+    },
+    {
+      "id": "sol_turbine_charm",
+      "file": "assets/sol_turbine_charm.glb",
+      "member": "sol",
+      "triangles": 1440,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.03500000014901161,
+          -0.03500000014901161,
+          -0.006000000052154064
+        ],
+        [
+          0.03500000014901161,
+          0.05350000038743019,
+          0.013000000268220901
+        ]
+      ],
+      "bytes": 46076
+    },
+    {
+      "id": "sol_cuff",
+      "file": "assets/sol_cuff.glb",
+      "member": "sol",
+      "triangles": 4480,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.019999999552965164,
+          -0.042500000447034836,
+          -0.04450000077486038
+        ],
+        [
+          0.019999999552965164,
+          0.042500000447034836,
+          0.04600000008940697
+        ]
+      ],
+      "bytes": 130996
+    },
+    {
+      "id": "sol_utility_belt",
+      "file": "assets/sol_utility_belt.glb",
+      "member": "sol",
+      "triangles": 4280,
+      "materialCount": 4,
+      "boundsMeters": [
+        [
+          -0.16249999403953552,
+          -0.04800000041723251,
+          -0.09950000047683716
+        ],
+        [
+          0.16249999403953552,
+          0.017999999225139618,
+          0.12099999934434891
+        ]
+      ],
+      "bytes": 125432
+    }
+  ],
+  "palettes": {
+    "prime": {
+      "name": "PRIME",
+      "role": "The ivory-and-gold centre",
+      "base": "#F2E7CE",
+      "accent": "#D6AD52",
+      "dark": "#191A24",
+      "light": "#FFFBED",
+      "metal": "#D6AD52",
+      "pattern": "jacquard",
+      "roughness": 0.68
+    },
+    "pixel": {
+      "name": "PIXEL",
+      "role": "The pink mischief-maker",
+      "base": "#F35CA6",
+      "accent": "#FFE1EE",
+      "dark": "#23212B",
+      "light": "#FFF2F8",
+      "metal": "#C2CCD8",
+      "pattern": "quilt",
+      "roughness": 0.42
+    },
+    "nova": {
+      "name": "NOVA",
+      "role": "The blue technical ace",
+      "base": "#207CEB",
+      "accent": "#73E5EF",
+      "dark": "#101C36",
+      "light": "#DDF8FF",
+      "metal": "#9DAFC4",
+      "pattern": "circuit",
+      "roughness": 0.62
+    },
+    "noir": {
+      "name": "NOIR",
+      "role": "The purple dramatic one",
+      "base": "#743FB9",
+      "accent": "#B68BE5",
+      "dark": "#24172F",
+      "light": "#ECE0FF",
+      "metal": "#77788F",
+      "pattern": "orbit",
+      "roughness": 0.48
+    },
+    "sol": {
+      "name": "SOL",
+      "role": "The orange chaos engine",
+      "base": "#FF782D",
+      "accent": "#FFC04D",
+      "dark": "#242830",
+      "light": "#F4EAD9",
+      "metal": "#AAB3BC",
+      "pattern": "ripstop",
+      "roughness": 0.76
+    }
+  },
+  "accessoryMaterials": {
+    "prime_metal": {
+      "color": "#D6AD52",
+      "metallic": 0.86,
+      "roughness": 0.28
+    },
+    "prime_accent": {
+      "color": "#F2E7CE",
+      "metallic": 0.18,
+      "roughness": 0.34
+    },
+    "prime_dark": {
+      "color": "#191A24",
+      "metallic": 0.08,
+      "roughness": 0.72
+    },
+    "prime_light": {
+      "color": "#FFFBED",
+      "metallic": 0.1,
+      "roughness": 0.42
+    },
+    "prime_gem": {
+      "color": "#D6AD52",
+      "metallic": 0.38,
+      "roughness": 0.17
+    },
+    "pixel_metal": {
+      "color": "#C2CCD8",
+      "metallic": 0.86,
+      "roughness": 0.28
+    },
+    "pixel_accent": {
+      "color": "#F35CA6",
+      "metallic": 0.18,
+      "roughness": 0.34
+    },
+    "pixel_dark": {
+      "color": "#23212B",
+      "metallic": 0.08,
+      "roughness": 0.72
+    },
+    "pixel_light": {
+      "color": "#FFF2F8",
+      "metallic": 0.1,
+      "roughness": 0.42
+    },
+    "pixel_gem": {
+      "color": "#FFE1EE",
+      "metallic": 0.38,
+      "roughness": 0.17
+    },
+    "nova_metal": {
+      "color": "#9DAFC4",
+      "metallic": 0.86,
+      "roughness": 0.28
+    },
+    "nova_accent": {
+      "color": "#207CEB",
+      "metallic": 0.18,
+      "roughness": 0.34
+    },
+    "nova_dark": {
+      "color": "#101C36",
+      "metallic": 0.08,
+      "roughness": 0.72
+    },
+    "nova_light": {
+      "color": "#DDF8FF",
+      "metallic": 0.1,
+      "roughness": 0.42
+    },
+    "nova_gem": {
+      "color": "#73E5EF",
+      "metallic": 0.38,
+      "roughness": 0.17
+    },
+    "noir_metal": {
+      "color": "#77788F",
+      "metallic": 0.86,
+      "roughness": 0.28
+    },
+    "noir_accent": {
+      "color": "#743FB9",
+      "metallic": 0.18,
+      "roughness": 0.34
+    },
+    "noir_dark": {
+      "color": "#24172F",
+      "metallic": 0.08,
+      "roughness": 0.72
+    },
+    "noir_light": {
+      "color": "#ECE0FF",
+      "metallic": 0.1,
+      "roughness": 0.42
+    },
+    "noir_gem": {
+      "color": "#B68BE5",
+      "metallic": 0.38,
+      "roughness": 0.17
+    },
+    "sol_metal": {
+      "color": "#AAB3BC",
+      "metallic": 0.86,
+      "roughness": 0.28
+    },
+    "sol_accent": {
+      "color": "#FF782D",
+      "metallic": 0.18,
+      "roughness": 0.34
+    },
+    "sol_dark": {
+      "color": "#242830",
+      "metallic": 0.08,
+      "roughness": 0.72
+    },
+    "sol_light": {
+      "color": "#F4EAD9",
+      "metallic": 0.1,
+      "roughness": 0.42
+    },
+    "sol_gem": {
+      "color": "#FFC04D",
+      "metallic": 0.38,
+      "roughness": 0.17
+    }
+  }
+}

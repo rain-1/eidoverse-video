@@ -1,0 +1,98 @@
+{
+  "schema": "claude-baked-ensemble/0.2",
+  "id": "spotlight_relay",
+  "label": "Individual spotlights / backing groove",
+  "description": "Different dancers take a solo while the others keep a restrained mechanical backing phrase.",
+  "timingMode": "reference-tempo",
+  "referenceBpm": 120,
+  "auditionBpm": 130,
+  "totalBeats": 32,
+  "durationSeconds": 16.0,
+  "loop": false,
+  "formation": "stagger",
+  "uniformReferenceHipHeightMetres": 1.0,
+  "members": [
+    {
+      "id": "Claude-01",
+      "clip": "ensembles/spotlight_relay/Claude-01.vrma",
+      "position": [
+        -3.2,
+        0,
+        -0.55
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-02",
+      "clip": "ensembles/spotlight_relay/Claude-02.vrma",
+      "position": [
+        -1.6,
+        0,
+        0.3
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-03",
+      "clip": "ensembles/spotlight_relay/Claude-03.vrma",
+      "position": [
+        0,
+        0,
+        -0.55
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-04",
+      "clip": "ensembles/spotlight_relay/Claude-04.vrma",
+      "position": [
+        1.6,
+        0,
+        0.3
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-05",
+      "clip": "ensembles/spotlight_relay/Claude-05.vrma",
+      "position": [
+        3.2,
+        0,
+        -0.55
+      ],
+      "bakedRootPath": []
+    }
+  ],
+  "sections": [
+    {
+      "startBeat": 0,
+      "endBeat": 8,
+      "move": "basilisk_sway",
+      "mode": "spotlight",
+      "lead": 0
+    },
+    {
+      "startBeat": 8,
+      "endBeat": 16,
+      "move": "moon_launch",
+      "mode": "spotlight",
+      "lead": 2
+    },
+    {
+      "startBeat": 16,
+      "endBeat": 24,
+      "move": "idol_heart",
+      "mode": "spotlight",
+      "lead": 4
+    },
+    {
+      "startBeat": 24,
+      "endBeat": 32,
+      "move": "ending_fairy",
+      "mode": "spotlight",
+      "lead": 2
+    }
+  ],
+  "rootMotion": "Local travel baked into hips. Do not translate stage roots during playback.",
+  "timingNote": "All mirrors, delays and roles are baked. Start all lanes together; do not add offsets again."
+}

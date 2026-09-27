@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "name": "Circle hype squad",
+  "sourceBpm": 120,
+  "bpm": 120,
+  "firstBeatOffsetSeconds": 0,
+  "beatsPerPhrase": 8,
+  "formation": "circle",
+  "mode": "centre",
+  "dancers": 5,
+  "mirror": false,
+  "rippleDelayBeats": 0.5,
+  "transitionBeats": 0.55,
+  "loop": true,
+  "camera": "high",
+  "phrases": [
+    {
+      "id": "28_runway_royalty",
+      "startBeat": 0,
+      "beats": 8
+    },
+    {
+      "id": "27_turbo_footwork",
+      "startBeat": 8,
+      "beats": 8
+    },
+    {
+      "id": "40_too_cool",
+      "startBeat": 16,
+      "beats": 8
+    },
+    {
+      "id": "29_action_hero",
+      "startBeat": 24,
+      "beats": 8
+    },
+    {
+      "id": "42_tiny_macho",
+      "startBeat": 32,
+      "beats": 8
+    },
+    {
+      "id": "35_aegyo_overload",
+      "startBeat": 40,
+      "beats": 8
+    },
+    {
+      "id": "34_rocket_launch",
+      "startBeat": 48,
+      "beats": 8
+    },
+    {
+      "id": "39_dramatic_heartbreak",
+      "startBeat": 56,
+      "beats": 8
+    }
+  ],
+  "note": "Stage layout and dancer roles need the routine player; each VRMA is one eight-count skeletal phrase. Formations are static, not locomotion."
+}

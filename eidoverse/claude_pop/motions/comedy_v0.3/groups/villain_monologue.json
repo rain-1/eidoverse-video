@@ -1,0 +1,254 @@
+{
+  "schema": "claude-baked-ensemble/0.3",
+  "id": "villain_monologue",
+  "label": "Interrupted Villain Monologue",
+  "description": "A centre plotting-and-laughing solo, mischievous backing dancers, a gasp ripple and an embarrassing frozen monologue.",
+  "timingMode": "reference-tempo",
+  "referenceBpm": 120,
+  "auditionBpm": 130,
+  "totalBeats": 32,
+  "durationSeconds": 16.0,
+  "loop": false,
+  "formation": "frame",
+  "uniformReferenceHipHeightMetres": 1.0,
+  "members": [
+    {
+      "id": "Claude-01",
+      "clip": "ensembles/villain_monologue/Claude-01.vrma",
+      "position": [
+        -3.6,
+        0,
+        -0.9
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-02",
+      "clip": "ensembles/villain_monologue/Claude-02.vrma",
+      "position": [
+        -1.8,
+        0,
+        -1.2
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-03",
+      "clip": "ensembles/villain_monologue/Claude-03.vrma",
+      "position": [
+        0,
+        0,
+        0.45
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-04",
+      "clip": "ensembles/villain_monologue/Claude-04.vrma",
+      "position": [
+        1.8,
+        0,
+        -1.2
+      ],
+      "bakedRootPath": []
+    },
+    {
+      "id": "Claude-05",
+      "clip": "ensembles/villain_monologue/Claude-05.vrma",
+      "position": [
+        3.6,
+        0,
+        -0.9
+      ],
+      "bakedRootPath": []
+    }
+  ],
+  "sections": [
+    {
+      "startBeat": 0,
+      "endBeat": 8,
+      "move": "villain_laugh",
+      "mode": "spotlight",
+      "lead": 2,
+      "backing": "sneaky_goblin",
+      "caption": "A very serious monologue. Very silly minions.",
+      "memberRecipes": [
+        {
+          "move": "sneaky_goblin",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "sneaky_goblin",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "villain_laugh",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "sneaky_goblin",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "sneaky_goblin",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "endBeat": 16,
+      "move": "dramatic_gasp",
+      "mode": "canon",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "The minions have questions.",
+      "memberRecipes": [
+        {
+          "move": "dramatic_gasp",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "dramatic_gasp",
+          "mirrored": false,
+          "delayBeats": 0.25,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "dramatic_gasp",
+          "mirrored": false,
+          "delayBeats": 0.5,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "dramatic_gasp",
+          "mirrored": false,
+          "delayBeats": 0.75,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        },
+        {
+          "move": "dramatic_gasp",
+          "mirrored": false,
+          "delayBeats": 1.0,
+          "activeBeats": 7.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 16,
+      "endBeat": 24,
+      "move": "buffering_freeze",
+      "mode": "spotlight",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "The villain forgets the next line.",
+      "memberRecipes": [
+        {
+          "move": "nope_shuffle",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": true,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "buffering_freeze",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "nope_shuffle",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    },
+    {
+      "startBeat": 24,
+      "endBeat": 32,
+      "move": "tiny_victory",
+      "mode": "unison",
+      "lead": 2,
+      "backing": "nope_shuffle",
+      "caption": "Everyone celebrates the early finish.",
+      "memberRecipes": [
+        {
+          "move": "tiny_victory",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "tiny_victory",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "tiny_victory",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "tiny_victory",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        },
+        {
+          "move": "tiny_victory",
+          "mirrored": false,
+          "delayBeats": 0.0,
+          "activeBeats": 8.0,
+          "holdFinish": false
+        }
+      ]
+    }
+  ],
+  "rootMotion": "In-place choreography, with local hip sway and authored jumps baked into the hips. Static formation roots.",
+  "timingNote": "All mirrors, delays and roles are baked. Start all lanes together; do not add offsets again."
+}

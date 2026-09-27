@@ -1,0 +1,15 @@
+{
+  "pixel": {
+    "fit": {
+      "bodyWidthPadding": 1.08,
+      "bodyDepthPadding": 1.12,
+      "sleevePadding": 1.10,
+      "headScale": [1.04, 1.04, 1.0],
+      "headOffset": [0, 0.01, 0]
+    },
+    "attachments": {
+      "pixel_belt_and_charms": {"scale": [1.02, 1.0, 1.02], "offset": [0, 0, 0]},
+      "pixel_headpiece": {"scale": [1.0, 1.0, 1.0], "offset": [0, 0, 0.01]}
+    }
+  }
+}
