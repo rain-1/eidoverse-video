@@ -1,0 +1,17 @@
+name: Claude Pop asset integrity
+on:
+  pull_request:
+    paths:
+      - 'eidoverse/claude_pop/**'
+      - 'scripts/check_claude_pop_assets.py'
+      - '.github/workflows/claude-pop-assets.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check catalogs and assets
+        run: python3 scripts/check_claude_pop_assets.py
